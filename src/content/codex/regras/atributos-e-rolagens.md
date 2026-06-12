@@ -8,7 +8,23 @@ source:
 ---
 
 
-Todos os personagens, a maioria das criaturas e alguns objetos usam um conjunto de quatro atributos para descrever suas capacidades básicas: Força, Agilidade, Intelecto e Vontade. Cada atributo tem um valor, um número que vai de 1 a 20 e que mede o quão adepta a criatura ou objeto é em realizar atividades relacionadas ao seu uso. Uma pessoa típica tem um valor de 10 em cada atributo. Um valor mais alto indica uma habilidade excepcional, enquanto um valor mais baixo descreve uma capacidade diminuída. O valor também determina o modificador do atributo, o qual é sempre igual ao valor do atributo menos 10. Se você tiver um valor de Força de 12, você tem um modificador de Força de +2. Se você tiver um valor de Agilidade de 9, você tem um modificador de Agilidade de –1. Força A Força representa o poder dos seus músculos, sua durabilidade, capacidade atlética e condição física geral. Você usa sua Força para resistir a efeitos que forçam você a se mover ou que lhe restringem, bem como ao escalar, nadar, atacar com a maioria das armas de combate corpo a corpo, derrubar uma porta chutando ou sobrepujar outra criatura. A Força também ajuda você a suportar ou lutar contra os efeitos da dor, ferimentos, venenos e infecções. Agilidade A Agilidade abarca sua estabilidade, destreza, equilíbrio e reflexos. Você usa sua Agilidade quando quiser se manter em pé, talvez porque alguém acabou de empurrá-lo ou se estiver se movendo por terreno difícil. A Agilidade também entra em jogo quando você tenta uma tarefa que exige destreza manual, tal como arrombar uma fechadura, desarmar uma armadilha ou realizar uma proeza de prestidigitação. Intelecto O Intelecto mede sua inteligência, astúcia, memória e conhecimento. Você depende do Intelecto para frustrar tentativas de enganá-lo, decifrar uma mensagem codificada ou enganar outra criatura. O Intelecto também governa sua capacidade de usar algumas formas de magia. Vontade A Vontade descreve a sua coragem, força de vontade, determinação e resiliência mental. Você usa sua Vontade para resistir a esforços de erodir sua confiança, manipular suas emoções ou aterrorizar você. Assim como com o Intelecto, a Vontade também é necessária para usar algumas formas de magia.
+Todos os personagens, a maioria das criaturas e alguns objetos usam um conjunto de quatro atributos para descrever suas capacidades básicas: Força, Agilidade, Intelecto e Vontade. Cada atributo tem um valor, um número que vai de 1 a 20 e que mede o quão adepta a criatura ou objeto é em realizar atividades relacionadas ao seu uso. Uma pessoa típica tem um valor de 10 em cada atributo. Um valor mais alto indica uma habilidade excepcional, enquanto um valor mais baixo descreve uma capacidade diminuída. O valor também determina o modificador do atributo, o qual é sempre igual ao valor do atributo menos 10. Se você tiver um valor de Força de 12, você tem um modificador de Força de +2. Se você tiver um valor de Agilidade de 9, você tem um modificador de Agilidade de –1.
+
+### Força
+
+A Força representa o poder dos seus músculos, sua durabilidade, capacidade atlética e condição física geral. Você usa sua Força para resistir a efeitos que forçam você a se mover ou que lhe restringem, bem como ao escalar, nadar, atacar com a maioria das armas de combate corpo a corpo, derrubar uma porta chutando ou sobrepujar outra criatura. A Força também ajuda você a suportar ou lutar contra os efeitos da dor, ferimentos, venenos e infecções.
+
+### Agilidade
+
+A Agilidade abarca sua estabilidade, destreza, equilíbrio e reflexos. Você usa sua Agilidade quando quiser se manter em pé, talvez porque alguém acabou de empurrá-lo ou se estiver se movendo por terreno difícil. A Agilidade também entra em jogo quando você tenta uma tarefa que exige destreza manual, tal como arrombar uma fechadura, desarmar uma armadilha ou realizar uma proeza de prestidigitação.
+
+### Intelecto
+
+O Intelecto mede sua inteligência, astúcia, memória e conhecimento. Você depende do Intelecto para frustrar tentativas de enganá-lo, decifrar uma mensagem codificada ou enganar outra criatura. O Intelecto também governa sua capacidade de usar algumas formas de magia.
+
+### Vontade
+
+A Vontade descreve a sua coragem, força de vontade, determinação e resiliência mental. Você usa sua Vontade para resistir a esforços de erodir sua confiança, manipular suas emoções ou aterrorizar você. Assim como com o Intelecto, a Vontade também é necessária para usar algumas formas de magia.
 
 ## Rolagens de Atributo
 
