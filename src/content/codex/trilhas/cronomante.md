@@ -37,4 +37,10 @@ Voltar o relógio ou acelerar o tempo de modo que os momentos fluam como correde
 
 **Feitiços:** Um de mestre
 
-**Revisar a História (Mágico):** Você pode usar uma ação para reescrever a história. Escolha uma criatura ou objeto a até 5 metros de distância e aplique um dos efeitos a seguir: • Se o alvo estivesse morto, ele agora está vivo e com 1 ponto de Vida. • O alvo cura 5d6 de dano. • O alvo sofre 5d6 de dano. • O alvo recupera uma conjuração de um feitiço de especialista e uma de um feitiço de novato. • O alvo imediatamente recupera um uso gasto de um talento, mesmo se ele normalmente exigir uma rolagem bem-sucedida de sorte para recuperá-la. Você pode usar este talento três vezes, e recupera os usos gastos ao repousar.
+**Revisar a História (Mágico):** Você pode usar uma ação para reescrever a história. Escolha uma criatura ou objeto a até 5 metros de distância e aplique um dos efeitos a seguir:
+
+* Se o alvo estivesse morto, ele agora está vivo e com 1 ponto de Vida.
+* O alvo cura 5d6 de dano.
+* O alvo sofre 5d6 de dano.
+* O alvo recupera uma conjuração de um feitiço de especialista e uma de um feitiço de novato.
+* O alvo imediatamente recupera um uso gasto de um talento, mesmo se ele normalmente exigir uma rolagem bem-sucedida de sorte para recuperá-la. Você pode usar este talento três vezes, e recupera os usos gastos ao repousar.

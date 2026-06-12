@@ -47,4 +47,12 @@ No passado, a Ordem de Paladinos incluía alguns dos guerreiros mais famosos de 
 
 **Feitiços:** Um de mestre
 
-**Luz dos Céus (Mágico):** Quando você tiver sucesso em uma rolagem de ataque, você pode usar este talento para preencher um espaço de Tamanho 5 centralizado em você com luz solar que dura 1 hora. A luz solar se move com você de modo a permanecer centralizada em você. Ela tem os seguintes efeitos: • Luz plena preenche o espaço. • Você impõe 1 revés em rolagens de ataque contra você e contra seus aliados que estiverem no espaço. • A sua Vida aumenta em 18. • Você sofre metade do dano de todas as fontes comuns. • Inimigos no espaço afetado ficam vulneráveis enquanto permanecerem nele. • Aliados no espaço afetado ficam imunes às aflições amedrontado e controlado. • Quando usar este talento, você perde acesso a ele até repousar.
+**Luz dos Céus (Mágico):** Quando você tiver sucesso em uma rolagem de ataque, você pode usar este talento para preencher um espaço de Tamanho 5 centralizado em você com luz solar que dura 1 hora. A luz solar se move com você de modo a permanecer centralizada em você. Ela tem os seguintes efeitos:
+
+* Luz plena preenche o espaço.
+* Você impõe 1 revés em rolagens de ataque contra você e contra seus aliados que estiverem no espaço.
+* A sua Vida aumenta em 18.
+* Você sofre metade do dano de todas as fontes comuns.
+* Inimigos no espaço afetado ficam vulneráveis enquanto permanecerem nele.
+* Aliados no espaço afetado ficam imunes às aflições amedrontado e controlado.
+* Quando usar este talento, você perde acesso a ele até repousar.

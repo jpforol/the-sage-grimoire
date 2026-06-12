@@ -29,7 +29,13 @@ Quase nada o surpreende. Seu intelecto afiado lhe permite enxergar vários passo
 
 **Vida:** +12
 
-**Estratagemas:** Você pode usar cada uma das opções a seguir uma vez durante cada combate, contanto que você não tenha as aflições atordoado, confuso, controlado e inconsciente. Quando usar todas as opções, você recupera a capacidade de usar todas novamente. • Você pode usar esta opção quando uma criatura fizer uma rolagem de ataque contra você ou uma rolagem contra a sua Força, Agilidade ou Vontade. A criatura deve usar o seu Intelecto como o número-alvo da rolagem. • Você pode usar esta opção quando usar uma reação. Receba uma nova reação, a qual deve ser usada antes do final da rodada ou é perdida. • Você pode usar esta opção quando tiver sucesso em uma rolagem de ataque. O alvo sofre 3d6 de dano extra. No nível 10, o alvo sofre 6d6 de dano extra em vez de 3d6. • Você pode usar esta opção quando receber uma aflição. A aflição termina. • Você pode suar esta opção quando sofrer dano. Você não sofre esse dano.
+**Estratagemas:** Você pode usar cada uma das opções a seguir uma vez durante cada combate, contanto que você não tenha as aflições atordoado, confuso, controlado e inconsciente. Quando usar todas as opções, você recupera a capacidade de usar todas novamente.
+
+* Você pode usar esta opção quando uma criatura fizer uma rolagem de ataque contra você ou uma rolagem contra a sua Força, Agilidade ou Vontade. A criatura deve usar o seu Intelecto como o número-alvo da rolagem.
+* Você pode usar esta opção quando usar uma reação. Receba uma nova reação, a qual deve ser usada antes do final da rodada ou é perdida.
+* Você pode usar esta opção quando tiver sucesso em uma rolagem de ataque. O alvo sofre 3d6 de dano extra. No nível 10, o alvo sofre 6d6 de dano extra em vez de 3d6.
+* Você pode usar esta opção quando receber uma aflição. A aflição termina.
+* Você pode suar esta opção quando sofrer dano. Você não sofre esse dano.
 
 ## Nível 10
 

@@ -17,7 +17,16 @@ Você acreditava que havia uma maneira de escapar dos limites da sua forma físi
 
 **Vida:** +12, Bônus de Dano: +1d6
 
-**Iluminação:** Você recebe todos os benefícios a seguir: • Quando você fizer uma rolagem de Força, você pode em vez disso fazer uma rolagem de Vontade. • Quando você fizer uma rolagem de Agilidade, você pode em vez disso fazer uma rolagem de Intelecto. • Faça uma rolagem de sorte quando ficar amedrontado, atordoado, confuso, vulnerável ou com o Intelecto ou a Vontade debilitados. Em um sucesso, você não recebe a aflição. • Você recebe o talento Brigão da trilha de guerreiro. Se já tiver esse talento, seus ataques desarmados agora têm os traços Brutal e Contundente. • Você é imune a infecções e à aflição envenenado. • Você pode prender o fôlego por 1 hora. • Você precisa comer e beber somente uma vez a cada sete dias. • Para cada hora de repouso, você cura 1d6 de dano e recupera 1 ponto de Vida.
+**Iluminação:** Você recebe todos os benefícios a seguir:
+
+* Quando você fizer uma rolagem de Força, você pode em vez disso fazer uma rolagem de Vontade.
+* Quando você fizer uma rolagem de Agilidade, você pode em vez disso fazer uma rolagem de Intelecto.
+* Faça uma rolagem de sorte quando ficar amedrontado, atordoado, confuso, vulnerável ou com o Intelecto ou a Vontade debilitados. Em um sucesso, você não recebe a aflição.
+* Você recebe o talento Brigão da trilha de guerreiro. Se já tiver esse talento, seus ataques desarmados agora têm os traços Brutal e Contundente.
+* Você é imune a infecções e à aflição envenenado.
+* Você pode prender o fôlego por 1 hora.
+* Você precisa comer e beber somente uma vez a cada sete dias.
+* Para cada hora de repouso, você cura 1d6 de dano e recupera 1 ponto de Vida.
 
 ## Nível 8
 

@@ -25,6 +25,7 @@ TRACOS_RE = re.compile(r"^Traços d[eao] ([A-Za-zÁÉÍÓÚÂÊÔÃÕÇáéíó�
 NIVEL_RE = re.compile(r"^(.+?) de Nível (\d)\s*$")
 # 'Nome do Talento: texto' → paragraph break + bold lead.
 TRAIT_LEAD_RE = re.compile(r"^([A-ZÁÉÍÓÚÂÊÔÃÕÇ][^:.!?]{1,45}):\s+(.+)$")
+BULLET_RE = re.compile(r"^([A-ZÁÉÍÓÚÂÊÔÃÕÇ][^:•]{1,60})\s*:\s+(.+)$")
 STAT_KEYS = {
     "Vida": "vida",
     "Tamanho": "tamanho",
@@ -58,14 +59,32 @@ def load_pages(src: Path) -> dict[int, list[str]]:
 
 
 def reflow(lines: list[str], bold_leads: bool = True) -> str:
-    """Join wrapped lines into paragraphs; trait leads start new bold paragraphs."""
+    """Join wrapped lines into paragraphs; trait leads start new bold paragraphs.
+
+    Also detects • bullets and converts them to Markdown * lists.
+    """
     paragraphs: list[str] = []
     current: list[str] = []
 
     def push() -> None:
-        if current:
-            paragraphs.append(" ".join(" ".join(current).split()))
-            current.clear()
+        if not current:
+            return
+        para = " ".join(" ".join(current).split())
+        current.clear()
+        if "•" not in para:
+            paragraphs.append(para)
+            return
+        # Bullet-separated list: split intro from items
+        parts = [p.strip() for p in re.split(r"\s*•\s*", para) if p.strip()]
+        intro = parts[0]
+        items = []
+        for part in parts[1:]:
+            m = BULLET_RE.match(part)
+            items.append(f"* **{m.group(1).strip()}:** {m.group(2)}" if m else f"* {part}")
+        if intro:
+            paragraphs.append(intro)
+        if items:
+            paragraphs.append("\n".join(items))
 
     for line in lines:
         s = line.strip()

@@ -45,6 +45,16 @@ Quaisquer dúvidas sobre o seu propósito neste mundo caíram por terra quando s
 
 **Feitiços:** Um de mestre
 
-**Fúria Virtuosa (Mágico):** Quando tiver sucesso em uma rolagem de ataque ou ao conjurar um feitiço, você pode usar este talento para canalizar a fúria do divino para dentro do seu corpo. Por 1 minuto ou até você ficar inconsciente, você recebe os benefícios a seguir: • O seu Tamanho se torna 3 e tudo que você vestir e carregar crescem para se acomodar à sua nova estatura. • Você irradia luz plena. • Você impõe 1 revés em rolagens para atacar você. • A sua Vida aumenta em 16. • Você fica imune às aflições atordoado, confuso e controlado. • Outras criaturas não podem mover você nem deixá-lo prostrado. • Você faz rolagens de ataque com 1 dádiva. • Seus ataques causam 1d6 de dano extra. • Você pode usar este talento três vezes. Você recupera os usos gastos ao repousar.
+**Fúria Virtuosa (Mágico):** Quando tiver sucesso em uma rolagem de ataque ou ao conjurar um feitiço, você pode usar este talento para canalizar a fúria do divino para dentro do seu corpo. Por 1 minuto ou até você ficar inconsciente, você recebe os benefícios a seguir:
+
+* O seu Tamanho se torna 3 e tudo que você vestir e carregar crescem para se acomodar à sua nova estatura.
+* Você irradia luz plena.
+* Você impõe 1 revés em rolagens para atacar você.
+* A sua Vida aumenta em 16.
+* Você fica imune às aflições atordoado, confuso e controlado.
+* Outras criaturas não podem mover você nem deixá-lo prostrado.
+* Você faz rolagens de ataque com 1 dádiva.
+* Seus ataques causam 1d6 de dano extra.
+* Você pode usar este talento três vezes. Você recupera os usos gastos ao repousar.
 
 ## Trilhas de Especiialista

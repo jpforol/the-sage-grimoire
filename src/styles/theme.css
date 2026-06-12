@@ -1,17 +1,17 @@
 /* The Sage Grimoire — dark grimoire theme (specs/codex-site.md) */
 
 :root {
-  --bg: #16110c;
-  --bg-soft: #1d1610;
-  --surface: #251c13;
-  --surface-raised: #2e2318;
-  --border: #4a3a26;
-  --border-soft: #382c1c;
-  --text: #e9dcc3;
-  --text-muted: #ab9678;
-  --gold: #d4a83b;
-  --gold-bright: #f0c75e;
-  --ember: #b3502e;
+  --bg: #0e0b14;
+  --bg-soft: #13101c;
+  --surface: #1a1528;
+  --surface-raised: #221838;
+  --border: #3d2d5e;
+  --border-soft: #2c1f46;
+  --text: #e8e0f4;
+  --text-muted: #9980c8;
+  --gold: #a87fd4;
+  --gold-bright: #c8a0e8;
+  --ember: #7b3fa8;
   --shadow: 0 4px 24px rgba(0, 0, 0, 0.45);
   --font-display: 'Cinzel', 'Georgia', serif;
   --font-body: 'Alegreya', 'Georgia', serif;
@@ -37,7 +37,7 @@ body {
   line-height: 1.6;
   color: var(--text);
   background:
-    radial-gradient(ellipse at top, rgba(212, 168, 59, 0.05), transparent 60%),
+    radial-gradient(ellipse at top, rgba(168, 127, 212, 0.08), transparent 60%),
     var(--bg);
 }
 
@@ -305,7 +305,7 @@ main {
 .tag-filters button[aria-pressed='true'] {
   background: var(--gold);
   border-color: var(--gold);
-  color: #1d1610;
+  color: #0e0b14;
   font-weight: 700;
 }
 

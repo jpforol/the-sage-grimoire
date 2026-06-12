@@ -27,7 +27,12 @@ source:
 
 **Vida:** +2, Bônus de Dano: +1d6
 
-**Forma de Gato Selvagem:** Quando você usar seu traço Forma Felina, você pode assumir a forma de um grande gato selvagem em vez de um gato doméstico. Enquanto nesta forma, você usa suas regras normais com as seguintes modificações: • Seu Tamanho se torna 1/2, você aumenta sua Velocidade em 2 e recebe os traços Escalador, Passos Longos e Silencioso. • Armas Naturais: Você pode usar suas garras e dentes como uma única arma natural Ágil que causa 2d6 de dano. • Saltador: Você pode gastar 1 metro de movimento para saltar para um espaço a até 5 metros de distância. Quando usar este traço, você perde acesso a ele por 1 minuto. • Você perde a capacidade de falar.
+**Forma de Gato Selvagem:** Quando você usar seu traço Forma Felina, você pode assumir a forma de um grande gato selvagem em vez de um gato doméstico. Enquanto nesta forma, você usa suas regras normais com as seguintes modificações:
+
+* Seu Tamanho se torna 1/2, você aumenta sua Velocidade em 2 e recebe os traços Escalador, Passos Longos e Silencioso.
+* **Armas Naturais:** Você pode usar suas garras e dentes como uma única arma natural Ágil que causa 2d6 de dano.
+* **Saltador:** Você pode gastar 1 metro de movimento para saltar para um espaço a até 5 metros de distância. Quando usar este traço, você perde acesso a ele por 1 minuto.
+* Você perde a capacidade de falar.
 
 **Recuperação Rápida:** Você pode usar uma ação, ou uma reação quando for prejudicado, para curar metade do seu total de dano e se mover até a sua Velocidade. Você recebe o traço Escorregadio para este movimento. Quando usar este talento, você perde acesso a ele até repousar.
 

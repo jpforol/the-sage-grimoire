@@ -21,7 +21,13 @@ Você lidou com seus deveres na sua vida inteira. Você teve que aguentar um emp
 
 **Tradições:** Encantamento, Feitiços: Um de especialista
 
-**Bufão Divino (Mágico):** Você pode realizar um ritual durante o qual você bebe álcool ou usa alguma outra substância recreativa. Quando terminar o ritual, você entra em um estado sagrado de folia e permanece nele até repousar. Até o efeito terminar, você recebe os seguintes benefícios e inconvenientes: • Você fica com o Intelecto e a Vontade debilitados. Se qualquer uma dessas aflições terminar, os efeitos deste talento terminam antecipadamente. • Você faz rolagens de sorte com 1 dádiva. • Você fica imune às aflições amedrontado e enfraquecido. • Você pode usar uma ação para trazer a alegria. Escolha uma criatura a até 5 metros de distância. O alvo faz uma rolagem de Vontade. Em um sucesso, ele fica imune a este talento por 24 horas. Em um fracasso, o alvo recebe todos os efeitos deste talento por 1 hora. Quando o efeito terminar, o alvo perde 1d6 de Vida. • Você pode usar uma reação quando sofrer dano para reduzi-lo pela metade e ficar prostrado.
+**Bufão Divino (Mágico):** Você pode realizar um ritual durante o qual você bebe álcool ou usa alguma outra substância recreativa. Quando terminar o ritual, você entra em um estado sagrado de folia e permanece nele até repousar. Até o efeito terminar, você recebe os seguintes benefícios e inconvenientes:
+
+* Você fica com o Intelecto e a Vontade debilitados. Se qualquer uma dessas aflições terminar, os efeitos deste talento terminam antecipadamente.
+* Você faz rolagens de sorte com 1 dádiva.
+* Você fica imune às aflições amedrontado e enfraquecido.
+* Você pode usar uma ação para trazer a alegria. Escolha uma criatura a até 5 metros de distância. O alvo faz uma rolagem de Vontade. Em um sucesso, ele fica imune a este talento por 24 horas. Em um fracasso, o alvo recebe todos os efeitos deste talento por 1 hora. Quando o efeito terminar, o alvo perde 1d6 de Vida.
+* Você pode usar uma reação quando sofrer dano para reduzi-lo pela metade e ficar prostrado.
 
 ## Caminhos de Mestre
 

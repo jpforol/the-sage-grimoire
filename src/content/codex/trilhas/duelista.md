@@ -17,7 +17,12 @@ Você adota um estilo de combate vexatório para equilibrar o campo de batalha e
 
 **Vida:** +18, Bônus de Dano: +1d6
 
-**Desafio do Duelista:** Você pode usar este talento no início do seu turno. Escolha um inimigo que você possa ver. Se o alvo puder ouvir você, ele faz uma rolagem de Vontade com 1 revés. Em um sucesso, o alvo fica imune a este talento por 24 horas. Em um fracasso, o alvo fica desafiado por você até você usar este talento novamente, você ficar atordoado ou inconsciente ou até o alvo ficar inconsciente. Os efeitos de estar desafiado são os seguintes: • Você faz rolagens de ataque contra o alvo com 1 dádiva. • Você impõe 1 revés em rolagens que o alvo fizer para atacar alvos exceto você. • Inimigos exceto o alvo fazem rolagens para atacar você com 1 revés enquanto o alvo estiver ao seu alcance. Capítulo 6 • Se o alvo fosse se mover para além de 5 metros de distância de você, ele para de se mover a 5 metros e a Velocidade dele se torna 0 até o início do próximo turno dele.
+**Desafio do Duelista:** Você pode usar este talento no início do seu turno. Escolha um inimigo que você possa ver. Se o alvo puder ouvir você, ele faz uma rolagem de Vontade com 1 revés. Em um sucesso, o alvo fica imune a este talento por 24 horas. Em um fracasso, o alvo fica desafiado por você até você usar este talento novamente, você ficar atordoado ou inconsciente ou até o alvo ficar inconsciente. Os efeitos de estar desafiado são os seguintes:
+
+* Você faz rolagens de ataque contra o alvo com 1 dádiva.
+* Você impõe 1 revés em rolagens que o alvo fizer para atacar alvos exceto você.
+* Inimigos exceto o alvo fazem rolagens para atacar você com 1 revés enquanto o alvo estiver ao seu alcance. Capítulo 6
+* Se o alvo fosse se mover para além de 5 metros de distância de você, ele para de se mover a 5 metros e a Velocidade dele se torna 0 até o início do próximo turno dele.
 
 ## Nível 8
 

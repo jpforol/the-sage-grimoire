@@ -45,6 +45,13 @@ Como ninguém consegue realmente dizer o que você é olhando a sua forma humana
 
 ## Traços
 
-**Forma de Lobo:** Você pode usar uma ação para transformar a si mesmo e tudo o que estiver vestindo e carregando em um lobo. Quando completar a transformação, você também pode fazer um ataque corpo a corpo. Você permanece na forma de lobo até ficar inconsciente, ou até usar uma ação para encerrar este efeito. Você usa as suas regras normais, modificadas da seguinte maneira: • Aumente a sua Defesa natural em 1. • Aumente a sua Velocidade em 1 e receba o traço Passos Longos. • Receba o traço Visão Apurada. • Você pode usar seus dentes como uma arma natural que causa 1d6 de dano. • Seus ataques corpo a corpo causam 1d6 de dano extra contra alvos atordoados, prostrados ou inconscientes. • Você perde a capacidade de falar.
+**Forma de Lobo:** Você pode usar uma ação para transformar a si mesmo e tudo o que estiver vestindo e carregando em um lobo. Quando completar a transformação, você também pode fazer um ataque corpo a corpo. Você permanece na forma de lobo até ficar inconsciente, ou até usar uma ação para encerrar este efeito. Você usa as suas regras normais, modificadas da seguinte maneira:
+
+* Aumente a sua Defesa natural em 1.
+* Aumente a sua Velocidade em 1 e receba o traço Passos Longos.
+* Receba o traço Visão Apurada.
+* Você pode usar seus dentes como uma arma natural que causa 1d6 de dano.
+* Seus ataques corpo a corpo causam 1d6 de dano extra contra alvos atordoados, prostrados ou inconscientes.
+* Você perde a capacidade de falar.
 
 **Táticas de Bando:** Quando atacar um alvo que já foi atacado na mesma rodada, você rola com 1 dádiva.

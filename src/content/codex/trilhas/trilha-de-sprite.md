@@ -19,7 +19,12 @@ source:
 
 **Tradição:** Uma, Feitiços: Dois de novato
 
-**Travessuras Cruéis (Mágico):** Você pode usar uma ação para fazer uma travessura. Escolha uma criatura a até 10 metros de distância e faça uma rolagem de Intelecto contra o Intelecto do alvo. Em um sucesso, o alvo sofre um dos efeitos a seguir: • O alvo sofre 1d6 de dano, 2d6 no nível 3 da sprite, 3d6 no nível 5, 4d6 no nível 7 e 5d6 no nível 9. • O alvo recebe uma das aflições a seguir (sorte encerra): amedrontado por você, enfraquecido ou vulnerável. • O alvo fica prostrado e não consegue levantar-se (sorte encerra). • Você pode usar este talento um número de vezes igual a 1 + metade do seu nível e recupera os usos gastos ao repousar.
+**Travessuras Cruéis (Mágico):** Você pode usar uma ação para fazer uma travessura. Escolha uma criatura a até 10 metros de distância e faça uma rolagem de Intelecto contra o Intelecto do alvo. Em um sucesso, o alvo sofre um dos efeitos a seguir:
+
+* O alvo sofre 1d6 de dano, 2d6 no nível 3 da sprite, 3d6 no nível 5, 4d6 no nível 7 e 5d6 no nível 9.
+* **O alvo recebe uma das aflições a seguir (sorte encerra):** amedrontado por você, enfraquecido ou vulnerável.
+* O alvo fica prostrado e não consegue levantar-se (sorte encerra).
+* Você pode usar este talento um número de vezes igual a 1 + metade do seu nível e recupera os usos gastos ao repousar.
 
 ## Nível 2
 

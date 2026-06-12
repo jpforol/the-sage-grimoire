@@ -64,7 +64,14 @@ Leva cerca de 1 hora usando um conjunto de ferramentas pesadas para limpar uma s
 
 ## Atividades Menores
 
-Você pode realizar atividades menores escolhidas dentre as opções a seguir gastando 2 metros de movimento para cada uma delas. • Abrir uma porta, baú ou outro recipiente destrancado ao seu alcance. • Retirar um item da sua mochila ou de outro recipiente que você carregar. • Pegar algo do chão. • Puxar uma alavanca ou apertar um interruptor. • Sacar ou guardar uma arma. • Qualquer outra atividade física que envolva movimento e que não exija uma rolagem de atributo para realizar ou resistir.
+Você pode realizar atividades menores escolhidas dentre as opções a seguir gastando 2 metros de movimento para cada uma delas.
+
+* Abrir uma porta, baú ou outro recipiente destrancado ao seu alcance.
+* Retirar um item da sua mochila ou de outro recipiente que você carregar.
+* Pegar algo do chão.
+* Puxar uma alavanca ou apertar um interruptor.
+* Sacar ou guardar uma arma.
+* Qualquer outra atividade física que envolva movimento e que não exija uma rolagem de atributo para realizar ou resistir.
 
 ## Traços de Movimentos
 

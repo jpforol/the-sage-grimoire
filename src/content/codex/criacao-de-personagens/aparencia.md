@@ -14,7 +14,13 @@ Você começa o jogo adulto. Você decide a sua altura e peso, além de outros d
 
 **Equipamento:** Você tem uma mochila, um cantil, provisões, 5 tochas e uma pederneira.
 
-**Equipamento Bônus:** Escolha uma das opções a seguir: • Armadura brigantina, escudo, clava • Armadura de couro, escudo, espada longa • Armadura de couro, arco curto e uma aljava com 20 flechas • Armadura acolchoada, cajado, 2 livros em branco, um conjunto de escrita, três emplastros • Armadura de couro, espada curta, funda com um saco com 20 balas, gazuas
+**Equipamento Bônus:** Escolha uma das opções a seguir:
+
+* Armadura brigantina, escudo, clava
+* Armadura de couro, escudo, espada longa
+* Armadura de couro, arco curto e uma aljava com 20 flechas
+* Armadura acolchoada, cajado, 2 livros em branco, um conjunto de escrita, três emplastros
+* Armadura de couro, espada curta, funda com um saco com 20 balas, gazuas
 
 **Pertences Pessoais:** Você tem quaisquer pertences pessoais Tabela de Características Distintas 1
 

@@ -31,4 +31,14 @@ Você se juntou a uma seita extremista de fiéis do Senhor Morte. Eles acreditam
 
 **Vida:** +12
 
-**Forma de Sombras (Mágico):** Você pode usar este talento quando adentrar um espaço iluminado por meia-luz, luz tênue ou na escuridão. Por 1 minuto, você recebe os benefícios a seguir: • Você sofre metade do dano de fontes comuns. • Rolagens para agarrar você fracassam automaticamente, e você fica imune à aflição restringido. • Você fica invisível. • Você tem os traços Escorregadio e Silencioso. • Você não deixa pegadas quando caminhar ou correr. • Você pode se mover através de objetos sólidos, mas, se terminar seu movimento dentro de um objeto sólido, você é empurrado para fora dele para o espaço vazio mais próximo e fica vulnerável (sorte encerra). • Você pode se mover por uma superfície líquida como se fosse sólida, apesar de afundar se terminar seu movimento na superfície. Você pode percorrer superfícies verticais sem precisar escalar. • Você faz rolagens de ataque com 1 dádiva e seus ataques causam 4d6 de dano extra. • Você pode usar este talento cinco vezes, e recupera os usos gastos ao repousar.
+**Forma de Sombras (Mágico):** Você pode usar este talento quando adentrar um espaço iluminado por meia-luz, luz tênue ou na escuridão. Por 1 minuto, você recebe os benefícios a seguir:
+
+* Você sofre metade do dano de fontes comuns.
+* Rolagens para agarrar você fracassam automaticamente, e você fica imune à aflição restringido.
+* Você fica invisível.
+* Você tem os traços Escorregadio e Silencioso.
+* Você não deixa pegadas quando caminhar ou correr.
+* Você pode se mover através de objetos sólidos, mas, se terminar seu movimento dentro de um objeto sólido, você é empurrado para fora dele para o espaço vazio mais próximo e fica vulnerável (sorte encerra).
+* Você pode se mover por uma superfície líquida como se fosse sólida, apesar de afundar se terminar seu movimento na superfície. Você pode percorrer superfícies verticais sem precisar escalar.
+* Você faz rolagens de ataque com 1 dádiva e seus ataques causam 4d6 de dano extra.
+* Você pode usar este talento cinco vezes, e recupera os usos gastos ao repousar.

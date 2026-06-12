@@ -8,6 +8,7 @@ source:
   book: "livro-basico"
   page: 191
 ---
+
 Bruxos e bruxas verdadeiros pertencem à Alta Ordem Secreta da Bruxaria, uma instituição fundada antes das primeiras cidades pelos mais antigos praticantes de magia. Nas suas comunidades, os bruxos servem como sábios, curandeiros, protetores e conselheiros. As pessoas os procuram quando precisam de remédios, amuletos e outras coisas para facilitar suas vidas. Tornar-se um bruxo significa fazer uma escolha sobre como você pretende usar a magia. Se você decidir ajudar os outros, curá-los e protegê-los, você seguirá o caminho da mão direita da magia branca. Se você aceitar as trevas, a dor e o sofrimento, você seguirá o caminho da mão esquerda da magia negra. E, se você trilhar a estrada entre os dois, siga o caminho do meio da magia cinza.
 
 ## Nível 3
@@ -24,9 +25,9 @@ Bruxos e bruxas verdadeiros pertencem à Alta Ordem Secreta da Bruxaria, uma ins
 
 **Caminhos da Bruxaria (Mágico):** Escolha um dos benefícios a seguir. A sua escolha afeta outros talentos que você receber desta trilha.
 
-* **Magia Branca**: Você pode usar uma ação para alvejar uma criatura ao seu alcance. Você toca o alvo e ele cura 2d6 de dano ou encerra uma aflição que o esteja afetando. A quantidade de dano curado aumenta para 4d6 no nível 6 e 6d6 no nível 9. Você pode usar este talento uma quantidade de vezes igual ao seu nível e recupera os usos gastos ao repousar.
-* **Magia Cinza**: Quando você fizer uma rolagem de atributo como parte de um efeito mágico que você criar, você faz a rolagem com 1 dádiva.
-* **Magia Negra**: quando você causar dano a uma única criatura com um efeito mágico que você criar, a criatura sofre 1d6 de dano extra. Este dano aumenta para 2d6 no nível 6 e 3d6 no nível 9. Você pode usar este talento uma quantidade de vezes igual ao seu nível e recupera os usos gastos ao repousar.
+* **Magia Branca:** Você pode usar uma ação para alvejar uma criatura ao seu alcance. Você toca o alvo e ele cura 2d6 de dano ou encerra uma aflição que o esteja afetando. A quantidade de dano curado aumenta para 4d6 no nível 6 e 6d6 no nível 9. Você pode usar este talento uma quantidade de vezes igual ao seu nível e recupera os usos gastos ao repousar.
+* **Magia Cinza:** Quando você fizer uma rolagem de atributo como parte de um efeito mágico que você criar, você faz a rolagem com 1 dádiva.
+* **Magia Negra:** quando você causar dano a uma única criatura com um efeito mágico que você criar, a criatura sofre 1d6 de dano extra. Este dano aumenta para 2d6 no nível 6 e 3d6 no nível 9. Você pode usar este talento uma quantidade de vezes igual ao seu nível e recupera os usos gastos ao repousar.
 
 ## Nível 4
 
@@ -44,7 +45,11 @@ Bruxos e bruxas verdadeiros pertencem à Alta Ordem Secreta da Bruxaria, uma ins
 
 **Conjuração Cerimonial:** Você pode realizar um ritual para conjurar qualquer feitiço que você tenha aprendido sem precisar gastar uma conjuração. Depois de resolver os efeitos do feitiço, faça uma rolagem de Força. Em um fracasso, você fica enfraquecido por 1 hora e perde acesso a este talento até repousar.
 
-**Bruxaria Maior (Mágico):** Você recebe um talento que corresponde à escolha que fez no seu talento Caminhos da Bruxaria: • Égide Apotropaica (Magia Branca): Quando uma criatura a até 10 metros de distância sofrer dano, você pode usar uma reação para reduzir a quantidade de dano em 10, ou em 15 no nível 9. • Desvanecer (Magia Cinza): Quando você for atacado, você pode usar uma reação para ficar turvo e indistinto. Você impõe 2 reveses na rolagem, ou 3 reveses no nível 9. • Mau-Olhado (Magia Negra): Quando um inimigo que você possa ver começar o turno dele a até 10 metros de distância, você pode usar uma reação para obrigar o inimigo a fazer uma rolagem de sorte. Em um fracasso, o inimigo fica amaldiçoado (sorte encerra). Sempre que você causar dano a um alvo amaldiçoado desta forma, o alvo sofre 1d6 de dano extra, ou 2d6 no nível 9.
+**Bruxaria Maior (Mágico):** Você recebe um talento que corresponde à escolha que fez no seu talento Caminhos da Bruxaria:
+
+* **Égide Apotropaica (Magia Branca):** Quando uma criatura a até 10 metros de distância sofrer dano, você pode usar uma reação para reduzir a quantidade de dano em 10, ou em 15 no nível 9.
+* **Desvanecer (Magia Cinza):** Quando você for atacado, você pode usar uma reação para ficar turvo e indistinto. Você impõe 2 reveses na rolagem, ou 3 reveses no nível 9.
+* **Mau-Olhado (Magia Negra):** Quando um inimigo que você possa ver começar o turno dele a até 10 metros de distância, você pode usar uma reação para obrigar o inimigo a fazer uma rolagem de sorte. Em um fracasso, o inimigo fica amaldiçoado (sorte encerra). Sempre que você causar dano a um alvo amaldiçoado desta forma, o alvo sofre 1d6 de dano extra, ou 2d6 no nível 9.
 
 ## Nível 9
 
@@ -52,6 +57,10 @@ Bruxos e bruxas verdadeiros pertencem à Alta Ordem Secreta da Bruxaria, uma ins
 
 **Feitiços:** Um de mestre
 
-**Segredos da Bruxaria (Mágico):** Você recebe um benefício dependendo da escolha que fez no talento Caminhos da Bruxaria: • Restaurar Vida (Magia Branca): Você pode realizar um ritual para restaurar a saúde dos feridos ou para reviver os mortos. Escolha uma criatura ferida ou uma criatura morta há no máximo 3 dias. Se o alvo for uma criatura ferida, ele cura todo o dano dele e recupera 1d6 de Vida. Se o alvo for uma criatura morta, você a traz de volta à vida para que ela se torne uma criatura novamente. O alvo cura todo o dano dele e recupera 1d6 de Vida. Em ambos os casos, o alvo impõe 1 revés em rolagens de ataque contra ele por 24 horas. Quando você usar este talento, você perde acesso a ele até repousar. • Evaporação Aparente (Magia Cinza): Você pode usar uma ação para ficar invisível por 1 minuto. O efeito termina antecipadamente se você ferir outra criatura. • Maldição Fatal (Magia Negra): Você pode apagar a vida de uma criatura viva. Escolha uma criatura que você possa ver a até 10 metros de distância. O alvo fica amaldiçoado (sorte encerra). Toda vez que o alvo fizer uma rolagem de sorte para encerrar esta aflição, o alvo perde 3d6 de Vida. Quando você usar este talento, você perde acesso a ele até repousar.
+**Segredos da Bruxaria (Mágico):** Você recebe um benefício dependendo da escolha que fez no talento Caminhos da Bruxaria:
+
+* **Restaurar Vida (Magia Branca):** Você pode realizar um ritual para restaurar a saúde dos feridos ou para reviver os mortos. Escolha uma criatura ferida ou uma criatura morta há no máximo 3 dias. Se o alvo for uma criatura ferida, ele cura todo o dano dele e recupera 1d6 de Vida. Se o alvo for uma criatura morta, você a traz de volta à vida para que ela se torne uma criatura novamente. O alvo cura todo o dano dele e recupera 1d6 de Vida. Em ambos os casos, o alvo impõe 1 revés em rolagens de ataque contra ele por 24 horas. Quando você usar este talento, você perde acesso a ele até repousar.
+* **Evaporação Aparente (Magia Cinza):** Você pode usar uma ação para ficar invisível por 1 minuto. O efeito termina antecipadamente se você ferir outra criatura.
+* **Maldição Fatal (Magia Negra):** Você pode apagar a vida de uma criatura viva. Escolha uma criatura que você possa ver a até 10 metros de distância. O alvo fica amaldiçoado (sorte encerra). Toda vez que o alvo fizer uma rolagem de sorte para encerrar esta aflição, o alvo perde 3d6 de Vida. Quando você usar este talento, você perde acesso a ele até repousar.
 
 ## Trilhas de Especiialista

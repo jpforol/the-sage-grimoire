@@ -39,6 +39,12 @@ A radiância da Mãe Sol brilha sobre você, sinalizando que você se tornou um 
 
 **Feitiços:** Um de mestre
 
-**Luz Divina da Mãe Sol:** Enquanto estiver sob os efeitos do seu talento Irradiar Luz Solar, você tem estes benefícios adicionais: • Você impõe 1 revés em rolagens contra a sua Defesa e Agilidade feitas por inimigos que possam ver você. • Você sofre metade do dano por fontes comuns. • Se você estiver agarrado no final da rodada, a criatura agarrando você fica incendiada (sorte encerra). • Você faz rolagens de sorte com 2 dádivas. • Você mantém seu valor normal de Velocidade e pode se mover normalmente.
+**Luz Divina da Mãe Sol:** Enquanto estiver sob os efeitos do seu talento Irradiar Luz Solar, você tem estes benefícios adicionais:
+
+* Você impõe 1 revés em rolagens contra a sua Defesa e Agilidade feitas por inimigos que possam ver você.
+* Você sofre metade do dano por fontes comuns.
+* Se você estiver agarrado no final da rodada, a criatura agarrando você fica incendiada (sorte encerra).
+* Você faz rolagens de sorte com 2 dádivas.
+* Você mantém seu valor normal de Velocidade e pode se mover normalmente.
 
 ## Caminhos de Mestre

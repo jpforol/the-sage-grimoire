@@ -43,4 +43,9 @@ O caos que varre o mundo permite que o mal se enraíze e prospere, crescendo e s
 
 **Feitiços:** Um de mestre
 
-**Litania da Destruição (Mágico):** Em combate, no início do seu turno, você pode entoar provérbios sagrados para fortalecer o seu comprometimento à sua causa sagrada. O efeito dura até o começo do seu próximo turno, mas termina antecipadamente se você não puder falar, se você usar a sua voz para um propósito além de entoar, tal como conjurar feitiços, ou se você ficar atordoado, confuso, controlado ou inconsciente. O efeito concede os seguintes benefícios: • Você faz rolagens de Vontade com 1 dádiva e impõe 1 revés em rolagens contra a sua Vontade. • Uma vez por rodada, quando você sofrer dano, você pode reduzir o dano em 5. • Os seus ataques causam 2d6 de dano extra a demônios, espíritos, infernais, fadas e mortos-vivos. • Você pode usar uma ação para curar todo o seu dano e recuperar 3d6 de Vida. Ao fazê-lo, você perde acesso a este talento até repousar.
+**Litania da Destruição (Mágico):** Em combate, no início do seu turno, você pode entoar provérbios sagrados para fortalecer o seu comprometimento à sua causa sagrada. O efeito dura até o começo do seu próximo turno, mas termina antecipadamente se você não puder falar, se você usar a sua voz para um propósito além de entoar, tal como conjurar feitiços, ou se você ficar atordoado, confuso, controlado ou inconsciente. O efeito concede os seguintes benefícios:
+
+* Você faz rolagens de Vontade com 1 dádiva e impõe 1 revés em rolagens contra a sua Vontade.
+* Uma vez por rodada, quando você sofrer dano, você pode reduzir o dano em 5.
+* Os seus ataques causam 2d6 de dano extra a demônios, espíritos, infernais, fadas e mortos-vivos.
+* Você pode usar uma ação para curar todo o seu dano e recuperar 3d6 de Vida. Ao fazê-lo, você perde acesso a este talento até repousar.

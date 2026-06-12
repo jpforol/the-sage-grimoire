@@ -17,7 +17,13 @@ A sua visão fica vermelha e um uivo escapa da sua garganta. Toda a sua raiva, t
 
 **Vida:** +12, Bônus de Dano: +1d6
 
-**Furioso:** Quando você for ferido e não estiver sob efeito deste talento, você pode ficar furioso, um estado de fúria total. O efeito dura até o combate terminar ou você recuperar o controle de si. Enquanto estiver furioso, você recebe os benefícios e complicações a seguir: • Você fica com o Intelecto debilitado e vulnerável. • Você é imune às aflições amedrontado e Força debilitada. Se você tiver alguma das aflições ao ficar furioso, elas terminam. • Quando você ficar enfraquecido, faça uma rolagem de sorte. Em um sucesso, você encerra a aflição. • Aumente a sua Velocidade em 2. • Seus ataques corpo a corpo causam 1d6 de dano extra, ou 2d6 no nível 9. Ao final da rodada, você pode escolher fazer uma rolagem de Vontade. Em um sucesso, você deixa de estar furioso. Em fracasso, você continua furioso até o final da próxima rodada. Se você não terminar o talento antecipadamente, você fica enfraquecido por 1 minuto após o efeito terminar.
+**Furioso:** Quando você for ferido e não estiver sob efeito deste talento, você pode ficar furioso, um estado de fúria total. O efeito dura até o combate terminar ou você recuperar o controle de si. Enquanto estiver furioso, você recebe os benefícios e complicações a seguir:
+
+* Você fica com o Intelecto debilitado e vulnerável.
+* Você é imune às aflições amedrontado e Força debilitada. Se você tiver alguma das aflições ao ficar furioso, elas terminam.
+* Quando você ficar enfraquecido, faça uma rolagem de sorte. Em um sucesso, você encerra a aflição.
+* Aumente a sua Velocidade em 2.
+* Seus ataques corpo a corpo causam 1d6 de dano extra, ou 2d6 no nível 9. Ao final da rodada, você pode escolher fazer uma rolagem de Vontade. Em um sucesso, você deixa de estar furioso. Em fracasso, você continua furioso até o final da próxima rodada. Se você não terminar o talento antecipadamente, você fica enfraquecido por 1 minuto após o efeito terminar.
 
 ## Nível 4
 

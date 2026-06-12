@@ -41,4 +41,9 @@ Alguns acreditam que o futuro já esteja escrito, que todas as suas escolhas for
 
 **Feitiços:** Um de mestre
 
-**Predição Verdadeira (Mágico):** Você pode usar uma ação para fazer uma predição sobre o futuro para as pessoas próximas. Escolha quaisquer criaturas a até 5 metros de distância. A predição que você faz é uma declaração críptica sobre um evento futuro. Ela mantém sua potência até ser gasta ou até 24 horas passarem. Quando um alvo com a predição fizer uma rolagem de atributo, ele pode gastá-la para também fazer uma rolagem de sorte e usar qualquer um dos resultados para determinar sucesso ou fracasso. Se ambos os dados resultarem no mesmo número, o alvo recebe um dos benefícios adicionais à escolha dele: • O alvo cura todo o dano dele e remove todas as aflições. • O alvo recupera uma conjuração gasta de um feitiço de especialista ou de novato. • No próximo turno do alvo, ele aumenta a quantidade de ações e movimentos que pode usar em um cada. • Quando você usar este talento, você perde acesso a ele até repousar.
+**Predição Verdadeira (Mágico):** Você pode usar uma ação para fazer uma predição sobre o futuro para as pessoas próximas. Escolha quaisquer criaturas a até 5 metros de distância. A predição que você faz é uma declaração críptica sobre um evento futuro. Ela mantém sua potência até ser gasta ou até 24 horas passarem. Quando um alvo com a predição fizer uma rolagem de atributo, ele pode gastá-la para também fazer uma rolagem de sorte e usar qualquer um dos resultados para determinar sucesso ou fracasso. Se ambos os dados resultarem no mesmo número, o alvo recebe um dos benefícios adicionais à escolha dele:
+
+* O alvo cura todo o dano dele e remove todas as aflições.
+* O alvo recupera uma conjuração gasta de um feitiço de especialista ou de novato.
+* No próximo turno do alvo, ele aumenta a quantidade de ações e movimentos que pode usar em um cada.
+* Quando você usar este talento, você perde acesso a ele até repousar.

@@ -21,7 +21,12 @@ Esses pobres tolos. Você frequentemente encontra pessoas que dizem que misturar
 
 **Idiomas:** Um
 
-**Arma Magicamente Carregada (Mágico):** Você pode realizar um ritual para imbuir com energia mágica uma arma que você tocar por toda a duração do ritual. Quando terminar o ritual, a arma fica carregada até ser destruída ou até você usar este talento novamente. Estando carregada desta maneira, a arma tem os seguintes benefícios: • Enquanto você empunhar a arma, você impõe 1 revés em rolagens contra a sua Defesa. • Quando você atacar com a arma, você pode usar o maior valor dentre seu Intelecto ou Vontade no lugar do atributo que normalmente usaria para atacar com a arma. • Quando você atacar com a arma, você faz a rolagem com 1 dádiva. • Quando você tiver um sucesso crítico em um ataque usando a arma, você faz rolagens para atacar o alvo com 1 dádiva até o final do seu próximo turno.
+**Arma Magicamente Carregada (Mágico):** Você pode realizar um ritual para imbuir com energia mágica uma arma que você tocar por toda a duração do ritual. Quando terminar o ritual, a arma fica carregada até ser destruída ou até você usar este talento novamente. Estando carregada desta maneira, a arma tem os seguintes benefícios:
+
+* Enquanto você empunhar a arma, você impõe 1 revés em rolagens contra a sua Defesa.
+* Quando você atacar com a arma, você pode usar o maior valor dentre seu Intelecto ou Vontade no lugar do atributo que normalmente usaria para atacar com a arma.
+* Quando você atacar com a arma, você faz a rolagem com 1 dádiva.
+* Quando você tiver um sucesso crítico em um ataque usando a arma, você faz rolagens para atacar o alvo com 1 dádiva até o final do seu próximo turno.
 
 ## Nível 4
 

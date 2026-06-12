@@ -35,8 +35,15 @@ Depois de uma carreira de escapadas, acrobacias, rolamentos e outras formas de e
 
 **Vida:** +12, Velocidade: +1
 
-**Como uma Borboleta:** Você recebe os benefícios a seguir: • Você pode usar uma reação quando cair para fazer uma rolagem de Agilidade. Em um sucesso, você não sofre prejuízos pela queda, e, em um fracasso, você perde metade da Vida que perderia. • Você ignora as consequências negativas por correr. • Se a sua Velocidade for maior do que 0, você pode ficar em pé quando estiver prostrado sem precisar gastar movimento. • Você pode e mover por espaços ocupados por outras
+**Como uma Borboleta:** Você recebe os benefícios a seguir:
+
+* Você pode usar uma reação quando cair para fazer uma rolagem de Agilidade. Em um sucesso, você não sofre prejuízos pela queda, e, em um fracasso, você perde metade da Vida que perderia.
+* Você ignora as consequências negativas por correr.
+* Se a sua Velocidade for maior do que 0, você pode ficar em pé quando estiver prostrado sem precisar gastar movimento.
+* Você pode e mover por espaços ocupados por outras
 
 ## Caminhos de Mestre
 
-criaturas. Quando o fizer, você pode forçar a criatura a fazer uma rolagem de Agilidade. Em um fracasso, a criatura sofre 1d6 de dano. Cada criatura pode ser afetada desta maneira somente uma vez por rodada. • Você recebe o traço Passos Longos se ainda não o tiver. Além disso, você pode correr para cima, para baixo e ao longo de superfícies verticais, apesar de que deve encerrar o seu movimento em uma superfície na qual possa normalmente ficar em pé.
+criaturas. Quando o fizer, você pode forçar a criatura a fazer uma rolagem de Agilidade. Em um fracasso, a criatura sofre 1d6 de dano. Cada criatura pode ser afetada desta maneira somente uma vez por rodada.
+
+* Você recebe o traço Passos Longos se ainda não o tiver. Além disso, você pode correr para cima, para baixo e ao longo de superfícies verticais, apesar de que deve encerrar o seu movimento em uma superfície na qual possa normalmente ficar em pé.

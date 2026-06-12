@@ -37,6 +37,10 @@ Espetáculos de combate acontecem há séculos. As pessoas amam assistir combate
 
 **Vida:** +12, Bônus de Dano: +1d6
 
-**Golpe Dissimulado:** Quando você tiver um sucesso crítico em uma rolagem de ataque e se tiver ao menos 1 dádiva na rolagem, o alvo faz uma rolagem de Intelecto com uma quantidade de reveses igual à quantidade o de dádivas que você teve na sua rolagem. Em um fracasso, o alvo sofre um dos efeitos a seguir: • O alvo fica vulnerável (sorte encerra). • O alvo fica cego até o final do seu próximo turno. • O alvo fica prostrado e não pode se levantar (sorte encerra).
+**Golpe Dissimulado:** Quando você tiver um sucesso crítico em uma rolagem de ataque e se tiver ao menos 1 dádiva na rolagem, o alvo faz uma rolagem de Intelecto com uma quantidade de reveses igual à quantidade o de dádivas que você teve na sua rolagem. Em um fracasso, o alvo sofre um dos efeitos a seguir:
+
+* O alvo fica vulnerável (sorte encerra).
+* O alvo fica cego até o final do seu próximo turno.
+* O alvo fica prostrado e não pode se levantar (sorte encerra).
 
 ## Trilhas de Especiialista

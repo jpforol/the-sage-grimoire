@@ -29,7 +29,11 @@ Você se juntou aos buscadores para se tornar um agente dos druidas. Você lhes 
 
 **Vida:** +12
 
-**Marca do Buscador (Mágico):** Você pode usar este talento quando tiver sucesso em uma rolagem para atacar um inimigo. O inimigo fica marcado. A marca aparece como um crânio de brilho tênue, visível somente para você e para outros que possam ver criaturas e objetos invisíveis. A marca permanece por 24 horas ou até você usar este talento novamente. A marca concede os seguintes benefícios: • Um inimigo que você marcou não pode se esconder de você. • Qualquer um que possa ver a marca faz rolagens para atacar o inimigo com 1 dádiva. • Seus ataques contra um inimigo que você marcou ignoram obscurecimento e cobertura, exceto cobertura total. Se você tiver um sucesso crítico em uma rolagem para atacar este inimigo, o seu ataque causa 3d6 de dano extra. No nível 10, quando você fizer uma rolagem para atacar o inimigo marcado, você rola um d20 adicional. Você pode usar qualquer um dos resultados. Se você rolar o mesmo número em ambos os dados, some os números para o resultado final.
+**Marca do Buscador (Mágico):** Você pode usar este talento quando tiver sucesso em uma rolagem para atacar um inimigo. O inimigo fica marcado. A marca aparece como um crânio de brilho tênue, visível somente para você e para outros que possam ver criaturas e objetos invisíveis. A marca permanece por 24 horas ou até você usar este talento novamente. A marca concede os seguintes benefícios:
+
+* Um inimigo que você marcou não pode se esconder de você.
+* Qualquer um que possa ver a marca faz rolagens para atacar o inimigo com 1 dádiva.
+* Seus ataques contra um inimigo que você marcou ignoram obscurecimento e cobertura, exceto cobertura total. Se você tiver um sucesso crítico em uma rolagem para atacar este inimigo, o seu ataque causa 3d6 de dano extra. No nível 10, quando você fizer uma rolagem para atacar o inimigo marcado, você rola um d20 adicional. Você pode usar qualquer um dos resultados. Se você rolar o mesmo número em ambos os dados, some os números para o resultado final.
 
 ## Nível 10
 

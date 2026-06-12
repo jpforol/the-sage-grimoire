@@ -19,7 +19,12 @@ A magia pode curar infecções e tratar ferimentos, mas o acesso aos poderes mil
 
 **Idiomas:** Um
 
-**Treinamento Médico:** Você é capaz de operar milagres com um conjunto de curandeiro. Você pode usar uma ação e gastar 1 uso do seu conjunto de curandeiro para produzir qualquer um dos efeitos a seguir: • Permitir a um aliado ao seu alcance curar 2d6 de dano. O dano curado aumenta para 3d6 no nível 9. • Remover as aflições confuso, enfraquecido, envenenado ou vulnerável de um aliado ao seu alcance. No nível 9, você pode remover qualquer aflição. • Encerrar uma infecção afetando um aliado ao alcance. • Permitir a um aliado ao alcance curar 1d6 de Vida.
+**Treinamento Médico:** Você é capaz de operar milagres com um conjunto de curandeiro. Você pode usar uma ação e gastar 1 uso do seu conjunto de curandeiro para produzir qualquer um dos efeitos a seguir:
+
+* Permitir a um aliado ao seu alcance curar 2d6 de dano. O dano curado aumenta para 3d6 no nível 9.
+* Remover as aflições confuso, enfraquecido, envenenado ou vulnerável de um aliado ao seu alcance. No nível 9, você pode remover qualquer aflição.
+* Encerrar uma infecção afetando um aliado ao alcance.
+* Permitir a um aliado ao alcance curar 1d6 de Vida.
 
 ## Nível 4
 

@@ -47,6 +47,12 @@ A Irmã Lua atrai a maior parte dos seus seguidores das fileiras de jovens viven
 
 **Feitiços:** Um de mestre
 
-**Dons da Deusa (Mágico):** Você pode usar uma ação para receber uma dádiva de uma deusa. Escolha um dos benefícios a seguir: • Uma criatura a até 5 metros de distância cura 10d6 de dano. • Uma criatura que você possa ver faz uma rolagem de Vontade. Em um fracasso, ela fica prostrada e fica adormecida (sorte encerra). • Por 24 horas, escuridão mágica cria obscurecimento total em um espaço de Tamanho 5 centralizado em você. A escuridão se move com você, permanecendo centralizada em você. Você consegue enxergar normalmente nessa escuridão. • Por 1 hora, você fica invisível e tem sucesso automático em rolagens para se esgueirar. • Alveje as criaturas que puderem ver você. Cada criatura fica com o Intelecto e a Vontade debilitados (sorte encerra ambos). Se você ferir uma criatura debilitada dessa forma, a aflição termina. Até a aflição terminar, o alvo fica amigável a você. Quando usar este talento, você perde acesso a ele até repousar.
+**Dons da Deusa (Mágico):** Você pode usar uma ação para receber uma dádiva de uma deusa. Escolha um dos benefícios a seguir:
+
+* Uma criatura a até 5 metros de distância cura 10d6 de dano.
+* Uma criatura que você possa ver faz uma rolagem de Vontade. Em um fracasso, ela fica prostrada e fica adormecida (sorte encerra).
+* Por 24 horas, escuridão mágica cria obscurecimento total em um espaço de Tamanho 5 centralizado em você. A escuridão se move com você, permanecendo centralizada em você. Você consegue enxergar normalmente nessa escuridão.
+* Por 1 hora, você fica invisível e tem sucesso automático em rolagens para se esgueirar.
+* Alveje as criaturas que puderem ver você. Cada criatura fica com o Intelecto e a Vontade debilitados (sorte encerra ambos). Se você ferir uma criatura debilitada dessa forma, a aflição termina. Até a aflição terminar, o alvo fica amigável a você. Quando usar este talento, você perde acesso a ele até repousar.
 
 ## Caminhos de Mestre

@@ -31,7 +31,12 @@ A pedra filosofal pode vencer a morte, transmutar materiais básicos em metais p
 
 **Produção Alquímica (Mágico):** Você pode produzir um consumível. Escolha dentre os encontrados no Capítulo 3. Você realiza um ritual utilizando um conjunto de alquimista e gastando ingredientes raros no valor de metade do preço do consumível. Quando terminar o ritual, você tem uma dose do consumível.
 
-**Transmutar Qualquer Objeto (Mágico):** Você pode mudar a substância da qual um objeto é feito. Escolha um objeto de Tamanho 1 ou menor ao seu alcance. Então, realize um ritual com um conjunto de alquimista e gastando ingredientes raros cujo valor depende da substância desejada, conforme descrito a seguir: • Transformar um objeto em matéria vegetal custa 5 pc, e a mudança dura por 7 meses. • Transformar um objeto em pedra, areia, terra, cristal sem valor ou um metal básico custa 5 pp, e a mudança dura por 7 semanas. • Transformar um objeto em cobre ou prata custa 1 po, e a mudança dura por 7 dias. • Transformar um objeto em ouro ou outro metal precioso custa 5 po, e a mudança dura por 7 horas. Quando o efeito terminar, o objeto imediatamente retorna à sua substância original. No nível 10, você precisa gastar somente metade do tempo necessário para realizar o efeito, e o efeito dura 1d6 vezes mais.
+**Transmutar Qualquer Objeto (Mágico):** Você pode mudar a substância da qual um objeto é feito. Escolha um objeto de Tamanho 1 ou menor ao seu alcance. Então, realize um ritual com um conjunto de alquimista e gastando ingredientes raros cujo valor depende da substância desejada, conforme descrito a seguir:
+
+* Transformar um objeto em matéria vegetal custa 5 pc, e a mudança dura por 7 meses.
+* Transformar um objeto em pedra, areia, terra, cristal sem valor ou um metal básico custa 5 pp, e a mudança dura por 7 semanas.
+* Transformar um objeto em cobre ou prata custa 1 po, e a mudança dura por 7 dias.
+* Transformar um objeto em ouro ou outro metal precioso custa 5 po, e a mudança dura por 7 horas. Quando o efeito terminar, o objeto imediatamente retorna à sua substância original. No nível 10, você precisa gastar somente metade do tempo necessário para realizar o efeito, e o efeito dura 1d6 vezes mais.
 
 ## Nível 10
 

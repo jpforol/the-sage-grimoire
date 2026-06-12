@@ -19,7 +19,14 @@ Os deuses encarnados são verdadeiramente terríveis de se contemplar. Por isso,
 
 **Feitiços:** Um de novato
 
-**Êxtase Divino (Mágico):** Se você não estiver atordoado, confuso, controlado ou inconsciente, e se já não estiver sob efeito deste talento no início do seu turno, você pode usar este talento para convidar a sua divindade a infundir o seu corpo por 1 minuto. O efeito termina antecipadamente se você ficar inconsciente ou se for submetido a um efeito que encerraria a aflição controlado. O talento concede os seguintes benefícios: • Sua Vida aumenta em 10. • Você impõe 1 revés em rolagens contra a sua Defesa ou seus atributos por inimigos que não sejam imunes à aflição amedrontado. • Você faz rolagens de atributo com 1 dádiva. • Você é imune às aflições amedrontado, atordoado, confuso, controlado, debilitado, restringido e vulnerável. • Seus ataques causam 1d6 de dano extra. • Quando este efeito terminar, você cura 4d6 de dano, mas primeiro fica enfraquecido (sorte encerra). Você pode usar este talento uma quantidade de vezes igual à metade do seu nível. Você recupera os usos gastos ao repousar.
+**Êxtase Divino (Mágico):** Se você não estiver atordoado, confuso, controlado ou inconsciente, e se já não estiver sob efeito deste talento no início do seu turno, você pode usar este talento para convidar a sua divindade a infundir o seu corpo por 1 minuto. O efeito termina antecipadamente se você ficar inconsciente ou se for submetido a um efeito que encerraria a aflição controlado. O talento concede os seguintes benefícios:
+
+* Sua Vida aumenta em 10.
+* Você impõe 1 revés em rolagens contra a sua Defesa ou seus atributos por inimigos que não sejam imunes à aflição amedrontado.
+* Você faz rolagens de atributo com 1 dádiva.
+* Você é imune às aflições amedrontado, atordoado, confuso, controlado, debilitado, restringido e vulnerável.
+* Seus ataques causam 1d6 de dano extra.
+* Quando este efeito terminar, você cura 4d6 de dano, mas primeiro fica enfraquecido (sorte encerra). Você pode usar este talento uma quantidade de vezes igual à metade do seu nível. Você recupera os usos gastos ao repousar.
 
 ## Nível 4
 
@@ -41,7 +48,11 @@ Os deuses encarnados são verdadeiramente terríveis de se contemplar. Por isso,
 
 **Feitiços:** Um de especialista
 
-**Pronunciamento Profético:** Quando você rolar 5 ou 6 no dado rolado no seu talento Presença Divina, o deus usa a sua boca para fazer um pronunciamento. Um aliado à sua escolha que ouvir a entidade falando fica inspirado pelo pronunciamento e recebe um dos benefícios a seguir, à escolha do aliado: • Curar 3d6 de dano. • Recuperar uma conjuração gasta de um feitiço de especialista ou de novato. • Fazer rolagens de atributo com 2 dádivas por 1 minuto.
+**Pronunciamento Profético:** Quando você rolar 5 ou 6 no dado rolado no seu talento Presença Divina, o deus usa a sua boca para fazer um pronunciamento. Um aliado à sua escolha que ouvir a entidade falando fica inspirado pelo pronunciamento e recebe um dos benefícios a seguir, à escolha do aliado:
+
+* Curar 3d6 de dano.
+* Recuperar uma conjuração gasta de um feitiço de especialista ou de novato.
+* Fazer rolagens de atributo com 2 dádivas por 1 minuto.
 
 ## Nível 9
 

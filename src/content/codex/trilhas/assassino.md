@@ -27,7 +27,12 @@ Fortalecer as suas mãos ajuda você a manter seu aperto ao estrangular uma vít
 
 **Vida:** +8
 
-**A Arte de Matar:** Você recebe os seguintes benefícios pelo seu treinamento com técnicas avançadas de assassinato: • Você causa 1d6 de dano extra a criaturas das quais esteja escondido ou para as quais esteja invisível. • Você precisa de apenas 1 minuto para criar um disfarce com um conjunto de disfarce, e você pode criar um disfarce para si sem precisar de uma superfície reflexiva. • Criaturas afetadas por venenos que você usar fazem suas rolagens para encerrar a aflição com 1 revés. Além disso, criaturas envenenadas por você perdem 1d6 de Vida extra ao final de cada rodada. • Você faz rolagens para agarrar e para superar agarrões com 1 dádiva. Quando você fizer uma criatura perder Vida com um garrote, a criatura perde 1d6 de Vida extra.
+**A Arte de Matar:** Você recebe os seguintes benefícios pelo seu treinamento com técnicas avançadas de assassinato:
+
+* Você causa 1d6 de dano extra a criaturas das quais esteja escondido ou para as quais esteja invisível.
+* Você precisa de apenas 1 minuto para criar um disfarce com um conjunto de disfarce, e você pode criar um disfarce para si sem precisar de uma superfície reflexiva.
+* Criaturas afetadas por venenos que você usar fazem suas rolagens para encerrar a aflição com 1 revés. Além disso, criaturas envenenadas por você perdem 1d6 de Vida extra ao final de cada rodada.
+* Você faz rolagens para agarrar e para superar agarrões com 1 dádiva. Quando você fizer uma criatura perder Vida com um garrote, a criatura perde 1d6 de Vida extra.
 
 ## Nível 6
 

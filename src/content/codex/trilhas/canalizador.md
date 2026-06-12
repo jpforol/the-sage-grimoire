@@ -19,7 +19,12 @@ Venerando ou não um deus, você reconhece a vastidão dos poderes deles e encon
 
 **Tradições:** Uma, Feitiços: Um de novato
 
-**Investidura Divina (Mágico):** No início do combate, se você não tiver as condições atordoado, confuso, controlado e inconsciente, você pode emitir luz plena de você. Cada inimigo a até 10 metros de distância faz uma rolagem de Força. Um anjo, demônio, espírito, infernal, fada ou morto-vivo faz rolagem com 1 revés. Em um fracasso, o inimigo fica enfraquecido (sorte encerra). A partir do nível 6, o inimigo também fica incendiado (sorte encerra). Em seguida, a luz desvanece, tornando-se meia-luz que brilha por 1 minuto ou até você ficar inconsciente. Até a luz apagar, você tem os benefícios a seguir: • Quando você fracassar em uma rolagem de sorte, você pode descartar o resultado e rolar novamente. Você deve usar o resultado da segunda rolagem, mesmo se for outro fracasso. • Você pode usar uma reação quando sofrer dano para reduzir o dano em 1d6 (até um mínimo de 0). • Você pode gastar 5 metros de movimento para voar até um espaço vazio a 10 metros de distância. Se você não aterrissar no espaço, você paira no final da rodada até uma superfície abaixo de você e capaz de suportar o seu peso. • Qualquer feitiço causador de dano que você conjurar causa 2d6 de dano extra.
+**Investidura Divina (Mágico):** No início do combate, se você não tiver as condições atordoado, confuso, controlado e inconsciente, você pode emitir luz plena de você. Cada inimigo a até 10 metros de distância faz uma rolagem de Força. Um anjo, demônio, espírito, infernal, fada ou morto-vivo faz rolagem com 1 revés. Em um fracasso, o inimigo fica enfraquecido (sorte encerra). A partir do nível 6, o inimigo também fica incendiado (sorte encerra). Em seguida, a luz desvanece, tornando-se meia-luz que brilha por 1 minuto ou até você ficar inconsciente. Até a luz apagar, você tem os benefícios a seguir:
+
+* Quando você fracassar em uma rolagem de sorte, você pode descartar o resultado e rolar novamente. Você deve usar o resultado da segunda rolagem, mesmo se for outro fracasso.
+* Você pode usar uma reação quando sofrer dano para reduzir o dano em 1d6 (até um mínimo de 0).
+* Você pode gastar 5 metros de movimento para voar até um espaço vazio a 10 metros de distância. Se você não aterrissar no espaço, você paira no final da rodada até uma superfície abaixo de você e capaz de suportar o seu peso.
+* Qualquer feitiço causador de dano que você conjurar causa 2d6 de dano extra.
 
 ## Nível 4
 
@@ -43,4 +48,8 @@ Venerando ou não um deus, você reconhece a vastidão dos poderes deles e encon
 
 **Feitiços:** Um de mestre
 
-**Canalizar Bênção (Mágico):** Quando conjurar um feitiço enquanto estiver sob efeito do seu talento Investidura Divina, você também pode realizar um dos efeitos a seguir: • Cada inimigo a até 5 metros de distância faz uma rolagem de Força e, em um fracasso, é empurrado 5 metros para longe de você. • Mova um aliado a até 10 metros de distância por até 5 metros em uma direção à sua escolha. • Depois de resolver os efeitos do feitiço, você se teletransporta a um espaço vazio que você possa ver a até 10 metros de distância.
+**Canalizar Bênção (Mágico):** Quando conjurar um feitiço enquanto estiver sob efeito do seu talento Investidura Divina, você também pode realizar um dos efeitos a seguir:
+
+* Cada inimigo a até 5 metros de distância faz uma rolagem de Força e, em um fracasso, é empurrado 5 metros para longe de você.
+* Mova um aliado a até 10 metros de distância por até 5 metros em uma direção à sua escolha.
+* Depois de resolver os efeitos do feitiço, você se teletransporta a um espaço vazio que você possa ver a até 10 metros de distância.

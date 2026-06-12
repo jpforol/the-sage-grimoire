@@ -8,7 +8,24 @@ source:
 ---
 
 
-Todo mundo sabe como fazer certas coisas e concordam sobre alguns fatos. Como alguém vivendo no mundo de Terre, você sabe as coisas a seguir. Esta lista não é exaustiva, mas dá uma ideia da compreensão de uma pessoa típica. • Como acender e manter uma fogueira. • Como coletar comida em terras com alimentos abundantes. • Como conseguir roupas e preparar a carne a partir de animais que você matar. • Como identificar água imprópria para beber. • Como usar equipamentos comuns e incomuns. • Como fazer a manutenção dos seus equipamentos. • As características básicas da terra em que você habita e o que há ao redor dessas terras. • A magia existe. Você ouviu falar que os deuses às vezes andam sobre a terra e concedem poderes aos seus servos. • Um pouco sobre as principais religiões, suas doutrinas e dogmas. • Como cuidar e alimentar um animal. • Como realizar comércio. • Como se alimentar, vestir e limpar, bem como cuidar de suas outras necessidades físicas. • Como ler e escrever. • As estações e sua passagem, o clima, as principais constelações e outros fenômenos relacionados a viver no mundo. • Identificar criaturas comuns que você encontrar. • Qualquer outra coisa que uma pessoa vivendo em uma sociedade pré-industrial saberia. Conhecimento Profissional Além do que você sabe em comum com as outras pessoas, você também tem conhecimentos relacionados à sua profissão, bem como às trilhas que escolheu.
+Todo mundo sabe como fazer certas coisas e concordam sobre alguns fatos. Como alguém vivendo no mundo de Terre, você sabe as coisas a seguir. Esta lista não é exaustiva, mas dá uma ideia da compreensão de uma pessoa típica.
+
+* Como acender e manter uma fogueira.
+* Como coletar comida em terras com alimentos abundantes.
+* Como conseguir roupas e preparar a carne a partir de animais que você matar.
+* Como identificar água imprópria para beber.
+* Como usar equipamentos comuns e incomuns.
+* Como fazer a manutenção dos seus equipamentos.
+* As características básicas da terra em que você habita e o que há ao redor dessas terras.
+* A magia existe. Você ouviu falar que os deuses às vezes andam sobre a terra e concedem poderes aos seus servos.
+* Um pouco sobre as principais religiões, suas doutrinas e dogmas.
+* Como cuidar e alimentar um animal.
+* Como realizar comércio.
+* Como se alimentar, vestir e limpar, bem como cuidar de suas outras necessidades físicas.
+* Como ler e escrever.
+* As estações e sua passagem, o clima, as principais constelações e outros fenômenos relacionados a viver no mundo.
+* Identificar criaturas comuns que você encontrar.
+* Qualquer outra coisa que uma pessoa vivendo em uma sociedade pré-industrial saberia. Conhecimento Profissional Além do que você sabe em comum com as outras pessoas, você também tem conhecimentos relacionados à sua profissão, bem como às trilhas que escolheu.
 
 **Lendas E Histórias:** Você consegue se lembrar de detalhes sobre membros lendários da sua profissão, bem como de membros famosos e infames da sua profissão nas suas terras e nos arredores de onde vive. Se você for um ferreiro que trabalhou em uma certa vila, você sabe se há um ferreiro famoso na cidade vizinha.
 

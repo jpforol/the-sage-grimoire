@@ -47,4 +47,9 @@ Toda instituição religiosa tem seus inimigos. Cismas na fé podem causar confl
 
 **Feitiços:** Um de mestre
 
-**Protetor do Templo (Mágico):** Você tem os seguintes benefícios adicionais enquanto estiver dentro do espaço afetado pelo seu talento Terreno Sagrado: • Você impõe 1 revés em rolagens de ataque contra você e contra seus aliados dentro do espaço afetado. • Você sofre metade do dano de todas as fontes comuns. • Você fica imune às aflições amedrontado, atordoado, confuso, controlado e vulnerável. • Se você não estiver restringido, quando um inimigo se mover para dentro do espaço afetado, você pode usar uma reação para se mover até 5 metros. Se você puder alcançar o inimigo antes do final do turno dele, você o ataca. Você acrescenta 10 ao resultado da sua rolagem e o ataque causa 4d6 de dano extra.
+**Protetor do Templo (Mágico):** Você tem os seguintes benefícios adicionais enquanto estiver dentro do espaço afetado pelo seu talento Terreno Sagrado:
+
+* Você impõe 1 revés em rolagens de ataque contra você e contra seus aliados dentro do espaço afetado.
+* Você sofre metade do dano de todas as fontes comuns.
+* Você fica imune às aflições amedrontado, atordoado, confuso, controlado e vulnerável.
+* Se você não estiver restringido, quando um inimigo se mover para dentro do espaço afetado, você pode usar uma reação para se mover até 5 metros. Se você puder alcançar o inimigo antes do final do turno dele, você o ataca. Você acrescenta 10 ao resultado da sua rolagem e o ataque causa 4d6 de dano extra.

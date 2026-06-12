@@ -37,6 +37,11 @@ Tornar-se um animista permite a você entrar em comunhão com os espíritos da t
 
 **Feitiços:** Um de mestre
 
-**Mescla com a Natureza (Mágico):** Você pode usar uma ação para mesclar a sua alma com as dos espíritos da natureza que o segue. Por 1 hora, você tem os benefícios e inconvenientes a seguir: • Sentidos: Consciência 10 • A Natureza Ataca! Você pode usar uma ação para fazer espíritos da natureza atacarem. Escolha uma criatura ou objeto a até 20 metros de distância. Faça uma rolagem de Vontade contra a Agilidade do alvo. Em um sucesso, o alvo sofre 10d6 de dano. Em um sucesso crítico, o alvo também fica restringido (sorte encerra). • Acelerar Crescimento: O chão dentro de um espaço de Tamanho 5 centralizado em você fica coberto por terreno difícil criado por plantas, rochas e similares. O espaço se move com você quando você se mover. • Derrubar as Muralhas: Você pode usar uma ação para colapsar uma estrutura. Escolha um espaço de Tamanho 10. Qualquer estrutura ou porção de uma estrutura nesse espaço perde toda a Vida. O chão fica coberto por terreno difícil no espaço anteriormente ocupado pela estrutura até ser removido. Quando você usar este talento, você perde acesso a ele até repousar.
+**Mescla com a Natureza (Mágico):** Você pode usar uma ação para mesclar a sua alma com as dos espíritos da natureza que o segue. Por 1 hora, você tem os benefícios e inconvenientes a seguir:
+
+* **Sentidos:** Consciência 10
+* A Natureza Ataca! Você pode usar uma ação para fazer espíritos da natureza atacarem. Escolha uma criatura ou objeto a até 20 metros de distância. Faça uma rolagem de Vontade contra a Agilidade do alvo. Em um sucesso, o alvo sofre 10d6 de dano. Em um sucesso crítico, o alvo também fica restringido (sorte encerra).
+* **Acelerar Crescimento:** O chão dentro de um espaço de Tamanho 5 centralizado em você fica coberto por terreno difícil criado por plantas, rochas e similares. O espaço se move com você quando você se mover.
+* **Derrubar as Muralhas:** Você pode usar uma ação para colapsar uma estrutura. Escolha um espaço de Tamanho 10. Qualquer estrutura ou porção de uma estrutura nesse espaço perde toda a Vida. O chão fica coberto por terreno difícil no espaço anteriormente ocupado pela estrutura até ser removido. Quando você usar este talento, você perde acesso a ele até repousar.
 
 ## Caminhos de Mestre
