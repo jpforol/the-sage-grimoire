@@ -4,12 +4,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Status
 
-**The Sage Grimoire** — a static, PT-BR codex website (Archives of Nethys style) for a
-personal RPG system, deployed free on GitHub Pages at
-`https://jpforol.github.io/the-sage-grimoire/`. Content will be ingested from 3 source
-PDFs (dropped into `sources/`, gitignored) via the pipeline in
-`workflows/ingest-pdf.md`. Current entries under `src/content/codex/` are samples that
-define the reference format.
+**The Sage Grimoire** — a static, PT-BR codex website (Archives of Nethys style) for
+**Shadow of the Weird Wizard**, deployed free on GitHub Pages at
+`https://jpforol.github.io/the-sage-grimoire/`. Content (~890 entries: 594 feitiços,
+33 tradições, 31 ancestralidades, 169 trilhas, 32 seções de regras) is generated from
+2 source PDFs in `sources/` (gitignored) by deterministic parsers — see
+`workflows/ingest-pdf.md` and its "Lições aprendidas". Hand-written entries: only
+`ancestralidades/humana.md` and the 4 trilhas de novato. Re-running a parser
+regenerates its entries; never hand-edit generated files (fix the parser instead).
 
 ## Methodology
 
@@ -55,6 +57,12 @@ pip install -r tools/requirements.txt
 python tools/validate_entries.py src/content/codex/    # content gate (CI runs this too)
 python tools/new_entry.py magias "Nome" --tags a,b     # scaffold a valid entry
 python tools/extract_pdf.py sources/X.pdf --out .tmp/extracted/X/
+
+# Content generators (idempotent; require prior extraction into .tmp/extracted/)
+python tools/parse_spells.py        # magias: 594 feitiços + 33 tradições
+python tools/parse_ancestries.py    # ancestralidades + trilhas de ancestralidade
+python tools/parse_paths.py         # trilhas de especialista e mestre
+python tools/build_sections.py      # capítulos de prosa (manifest em tools/data/)
 
 pytest tools/tests/                                    # full tool test suite
 pytest tools/tests/test_validate_entries.py -k slug    # single test

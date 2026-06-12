@@ -38,6 +38,11 @@ the unreliable part (layout interpretation) inspectable and the repeatable part 
 - Password-protected PDF: exit 1 with message naming the file and the reason.
 - Scanned PDF (no text layer): exit 1 advising that OCR is not supported in v1.
 
+## Known Issues (v1, validado contra os livros SotWW)
+- O critério de "página suspeita" marca ~90% das páginas dos livros reais (layout
+  2 colunas dispara o detector de ambiguidade) — o manifest é inútil como filtro;
+  os parsers downstream validam estrutura por âncoras em vez de confiar nele.
+
 ## Links
 - Workflow: `workflows/ingest-pdf.md`
 - Tool: `tools/extract_pdf.py` (PyMuPDF; pdfplumber only as fallback for table grids
