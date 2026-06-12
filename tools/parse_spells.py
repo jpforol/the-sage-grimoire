@@ -312,13 +312,12 @@ def render_tradition(trad: Tradition) -> str:
     summary = first_sentence(body) if body else f"A tradição de {trad.name}."
     return (
         "---\n"
-        f'title: "{trad.name} (Tradição)"\n'
-        'category: "magias"\n'
+        f'title: "{trad.name}"\n'
+        'category: "tradicoes"\n'
         f'summary: "{summary.replace(chr(34), chr(39))}"\n'
         f"tags: ['tradicao', {slugify(trad.name)!r}]\n"
         "stats:\n"
         f'  tradicao: "{trad.name}"\n'
-        '  rank: "Tradição"\n'
         "source:\n"
         '  book: "livro-basico"\n'
         f"  page: {trad.page}\n"
@@ -333,11 +332,18 @@ def main() -> None:
     parser.add_argument("--out", type=Path, default=Path("src/content/codex/magias"))
     args = parser.parse_args()
 
+    # Compute the traditions output directory (alongside magias/)
+    trad_out = args.out.parent / "tradicoes"
+
     lines = load_lines(args.src)
     traditions, spells, anomalies = parse(lines)
 
     args.out.mkdir(parents=True, exist_ok=True)
     for old in args.out.glob("*.md"):
+        old.unlink()
+
+    trad_out.mkdir(parents=True, exist_ok=True)
+    for old in trad_out.glob("*.md"):
         old.unlink()
 
     used: dict[str, Spell] = {}
@@ -356,8 +362,8 @@ def main() -> None:
         (args.out / f"{slug}.md").write_text(render_spell(spell), encoding="utf-8")
 
     for trad in traditions:
-        slug = f"tradicao-{slugify(trad.name)}"
-        (args.out / f"{slug}.md").write_text(render_tradition(trad), encoding="utf-8")
+        slug = slugify(trad.name)
+        (trad_out / f"{slug}.md").write_text(render_tradition(trad), encoding="utf-8")
         if not trad.intro:
             anomalies.append({"page": trad.page, "issue": f"tradição sem intro: '{trad.name}'"})
 

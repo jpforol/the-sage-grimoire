@@ -22,6 +22,7 @@ CATEGORIES = {
     "regras",
     "equipamentos",
     "magias",
+    "tradicoes",
     "ancestralidades",
     "trilhas",
 }

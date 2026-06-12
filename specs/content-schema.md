@@ -36,15 +36,16 @@ draft: false                     # optional, default false; true = hidden everyw
 Corpo da entrada em Markdown (descrição completa, tabelas, listas...).
 ```
 
-### Category enum (v2 — Shadow of the Weird Wizard)
-`criacao-de-personagens` | `regras` | `equipamentos` | `magias` | `ancestralidades` | `trilhas`
+### Category enum (v3 — Shadow of the Weird Wizard)
+`criacao-de-personagens` | `regras` | `equipamentos` | `magias` | `tradicoes` | `ancestralidades` | `trilhas`
 
 | Category | Content | Source |
 | --- | --- | --- |
 | `criacao-de-personagens` | Guia de criação, seções do cap. 1 | livro-basico p10–26 |
 | `regras` | Regras principais do jogo | livro-basico p27–54 |
 | `equipamentos` | Equipamentos básicos | livro-basico p55–75 |
-| `magias` | Um feitiço por entrada + intro por tradição | livro-basico p76–164 |
+| `magias` | Um feitiço por entrada | livro-basico p76–164 |
+| `tradicoes` | Uma tradição por entrada (intro + spells by rank) | livro-basico p76–164 (headings) |
 | `ancestralidades` | Uma entrada por ancestralidade | ancestralidades (Humana: livro-basico p11) |
 | `trilhas` | Uma entrada por trilha, com `subcategory` | ver abaixo |
 

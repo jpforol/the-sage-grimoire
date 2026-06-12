@@ -12,6 +12,7 @@ const codex = defineCollection({
         'regras',
         'equipamentos',
         'magias',
+        'tradicoes',
         'ancestralidades',
         'trilhas',
       ]),

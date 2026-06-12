@@ -5,6 +5,7 @@ export type CategoryId =
   | 'regras'
   | 'equipamentos'
   | 'magias'
+  | 'tradicoes'
   | 'ancestralidades'
   | 'trilhas';
 
@@ -54,6 +55,12 @@ export const CATEGORIES: CategoryDef[] = [
     icon: '✨',
     description: 'Todos os feitiços do sistema, organizados por tradição.',
     groupByStat: 'tradicao',
+  },
+  {
+    id: 'tradicoes',
+    label: 'Tradições',
+    icon: '✦',
+    description: 'As tradições mágicas e seus feitiços, separados por rank.',
   },
   {
     id: 'ancestralidades',
