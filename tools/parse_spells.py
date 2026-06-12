@@ -283,6 +283,49 @@ def to_paragraphs(lines: list[str]) -> str:
     return " ".join(" ".join(lines).split())
 
 
+def structure_talents(body: str) -> str:
+    """Convert 'Talento Name (Type):' or 'Talento Name:' patterns into ### subsections.
+
+    Splits on "Talentos de <name>." and reformats each talent into a subsection.
+    """
+    import re
+
+    # Find where "Talentos de" section starts — ensure it ends with **. or just .
+    talents_match = re.search(r'\*\*Talentos de.*?\.\*\*|\*\*Talentos de.*?\.', body)
+    if not talents_match:
+        return body
+
+    intro_end = talents_match.end()
+    intro = body[:intro_end]
+    # Ensure intro ends with proper formatting
+    if not intro.endswith('**'):
+        intro = intro.rstrip('.') + '.**'
+    talents_section = body[intro_end:].strip()
+
+    # Remove leading asterisks/whitespace from talents section
+    talents_section = re.sub(r'^\s*\*+\s*', '', talents_section)
+
+    # Pattern 1: "Nome (Tipo): descrição" - talent with type in parentheses
+    # Pattern 2: "Nome: descrição" - talent without type in parentheses
+    # Use alternation: (Nome \(Tipo\): desc) | (Nome: desc)
+    pattern = r'([A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-Za-zçãõáéí ]*?)\s*(?:\(([^)]+)\))?\s*:\s*(.+?)(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-Za-zçãõáéí ]*\s*(?:\([^)]+\))?\s*:|\Z)'
+
+    def replace_talent(m):
+        name = m.group(1).strip()
+        talent_type = m.group(2)  # Can be None if no parentheses
+        desc = m.group(3).strip()
+
+        if talent_type:
+            talent_type = talent_type.strip()
+            return f"\n### {name}\n\n**{talent_type}:** {desc}"
+        else:
+            # No type given, just show the description
+            return f"\n### {name}\n\n{desc}"
+
+    talents_section = re.sub(pattern, replace_talent, talents_section, flags=re.DOTALL)
+    return intro + talents_section
+
+
 def render_spell(spell: Spell) -> str:
     body = to_paragraphs(spell.body)
     summary = first_sentence(body) if body else f"Feitiço de {spell.tradition}."
@@ -309,6 +352,7 @@ def render_spell(spell: Spell) -> str:
 
 def render_tradition(trad: Tradition) -> str:
     body = to_paragraphs(trad.intro)
+    body = structure_talents(body)  # Convert **Talento:** to ### subsections
     summary = first_sentence(body) if body else f"A tradição de {trad.name}."
     return (
         "---\n"
