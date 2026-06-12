@@ -1,0 +1,20 @@
+---
+title: "Conjurando Feitiços"
+category: "regras"
+summary: "Alvo, duração, rolagens e rituais — as regras gerais de conjuração."
+source:
+  book: "livro-basico"
+  page: 52
+---
+
+
+Você conjura um feitiço que aprendeu de uma tradição, que esteja contido em um objeto que você esteja empunhando ou que você tenha como uma inscrição. Normalmente, você pode conjurar uma vez qualquer feitiço que você aprendeu, contanto que possa falar em voz alta as palavras místicas em um volume equivalente a uma conversa normal ou mais alto. Alguns feitiços permitem que você os conjure com maior frequência. Uma vez que conjure um feitiço, você recupera a capacidade de conjurá-lo somente após repousar. Alvos A não ser que o feitiço diga o contrário, você deve ser capaz de ver um alvo e traçar uma linha de efeito entre você e ele. Os efeitos de feitiços não contornam esquinas e outros obstáculos a não ser que as regras digam isso explicitamente. Uma parede invisível ou algum outro obstáculo oculto pode bloquear o caminho e se revelar somente depois que você conjurar o feitiço.
+
+## CRIATURAS E/OU OBJETOS
+
+Alguns feitiços afetam cada criatura e objeto a uma distância específica, a despeito de serem aliados, inimigos ou espectadores. A distância é contada a partir de você, a não ser que dito o contrário na descrição do feitiço. Para os propósitos de determinar a cobertura, o ponto de origem de qualquer efeito que afete tudo em uma área aparece no centro da área. Portanto, se você criar uma explosão de chamas com 5 metros a partir de você, você é considerado como estando no centro da explosão. Alguns feitiços têm como alvo uma quantidade determinada de criaturas, objetos ou ambos. Você pode escolher menos alvos do que o feitiço permite. Além disso, se um feitiço permitir uma criatura como alvo, você pode se alvejar com o feitiço. Um feitiço pode especificar aliados ou inimigos, caso em que o feitiço pode afetar somente as criaturas mencionadas. ESPAÇOS Alguns feitiços alvejam um espaço ou fazem algo acontecer dentro de um espaço específico. A descrição do feitiço lhe diz o Tamanho máximo do espaço a ser afetado, apesar de você sempre poder reduzir o Tamanho do espaço, se precisar. Se a distância estiver especificada, o espaço deve estar completamente dentro da distância mencionada. Às vezes, um feitiço cria um espaço a partir de um ponto de origem específico. Assim como ao alvejar criaturas e objetos, você deve ter linha de visão e linha de efeito com o ponto de origem alvo. Se um efeito for descrito como a uma distância a partir do espaço, sempre conte a partir do centro do espaço, a não ser que especificado o contrário. Duração A não ser que o feitiço diga o contrário, ele termina assim que você resolver o efeito. Muitos feitiços duram um tempo específico. Nesses casos, o efeito do feitiço persiste pelo tempo indicado ou até você usar uma ação para encerrar o efeito. Rolagens Alguns feitiços exigem que você faça uma rolagem de atributo para produzir o efeito desejado ou para aprimorar seu efeito, enquanto outros feitiços podem permitir que os alvos mitiguem os efeitos do feitiço com uma rolagem bem-sucedida. Se um feitiço tiver múltiplos alvos e pedir uma rolagem, role separadamente para cada alvo. COBERTURA A regra de cobertura se aplica quando um obstáculo bloquear parcialmente o caminho entre a fonte do efeito do feitiço e seu alvo, e somente se você estiver rolando contra a Defesa ou a Agilidade do alvo.
+
+## DURAÇÕES ACUMULADAS
+
+Se um efeito criado por um sucesso ou fracasso durar por um período de tempo e você criar o mesmo efeito novamente, use as mesmas regras para a duração das aflições. Rituais Alguns talentos e feitiços exigem que você realize um ritual para produzir seus efeitos. Realizar um ritual requer 10 minutos, período no qual você não pode sair do seu espaço. Quando você terminar, o efeito acontece. Muitos rituais também exigem o gasto de outros recursos, os quais são gastos ao terminar o ritual. Se algo interromper o ritual antes de você terminar, você não gasta recurso algum, mas deve recomeçar desde o início para produzir seus efeitos.
+

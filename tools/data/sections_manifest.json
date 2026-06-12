@@ -1,0 +1,235 @@
+{
+  "chapter_ranges": {
+    "criacao-de-personagens": [9, 26],
+    "regras": [27, 54],
+    "equipamentos": [55, 75]
+  },
+  "sections": [
+    {
+      "category": "criacao-de-personagens",
+      "title": "Criando um Personagem",
+      "summary": "Os passos para criar um personagem: conceito, nível e a estrutura de progressão por trilhas.",
+      "page": 9,
+      "marker": null,
+      "end": { "page": 10, "marker": "Ancestralidade" }
+    },
+    {
+      "category": "criacao-de-personagens",
+      "title": "Profissões",
+      "summary": "Como você ganhava a vida antes da aventura: oito categorias profissionais com tabelas de especialidades.",
+      "page": 10,
+      "marker": "Profissões"
+    },
+    {
+      "category": "criacao-de-personagens",
+      "title": "Equipamento Inicial",
+      "summary": "O que todo personagem novato carrega ao começar a jogar.",
+      "page": 14,
+      "marker": "Equipamento"
+    },
+    {
+      "category": "criacao-de-personagens",
+      "title": "Aparência",
+      "summary": "Definindo a aparência do personagem.",
+      "page": 14,
+      "marker": "Aparência"
+    },
+    {
+      "category": "criacao-de-personagens",
+      "title": "Histórico",
+      "summary": "O passado do personagem: de onde veio e o que o trouxe à vida de aventuras.",
+      "page": 16,
+      "marker": "Histórico"
+    },
+    {
+      "category": "criacao-de-personagens",
+      "title": "Identidade e Personalidade",
+      "summary": "Identidade, afabilidade, confiabilidade, visão de mundo, receptividade e sociabilidade.",
+      "page": 16,
+      "marker": "Identidade"
+    },
+    {
+      "category": "criacao-de-personagens",
+      "title": "Crenças Religiosas",
+      "summary": "A relação do personagem com os deuses e a fé.",
+      "page": 18,
+      "marker": "Crenças Religiosas"
+    },
+    {
+      "category": "criacao-de-personagens",
+      "title": "Nome",
+      "summary": "Nomes comuns dos confins para batizar o personagem.",
+      "page": 19,
+      "marker": "Nome"
+    },
+    {
+      "category": "criacao-de-personagens",
+      "title": "Trilhas de Novato: Regras",
+      "summary": "Atributos, personalização de valores e os benefícios concedidos pelas trilhas de novato.",
+      "page": 20,
+      "marker": "Trilhas de Novato",
+      "end": { "page": 21, "marker": "Guerreiro" }
+    },
+    {
+      "category": "regras",
+      "title": "Atributos e Rolagens",
+      "summary": "Força, Agilidade, Intelecto e Vontade; rolagens de atributo, rolagens contra, dádivas e reveses, sucesso e fracasso, rolagens de sorte.",
+      "page": 27,
+      "marker": "Atributos"
+    },
+    {
+      "category": "regras",
+      "title": "Tamanho, Defesa, Vida e Dano",
+      "summary": "Tamanho e alcance, Defesa, Vida, dano, ficar ferido, incapacitado, morte, repouso e tempo.",
+      "page": 28,
+      "marker": "Tamanho e Alcance"
+    },
+    {
+      "category": "regras",
+      "title": "Aflições",
+      "summary": "Os efeitos prejudiciais do jogo: de amaldiçoado e atordoado a vulnerável e soterrado.",
+      "page": 30,
+      "marker": "Efeitos Prejudiciais"
+    },
+    {
+      "category": "regras",
+      "title": "Privação e Perigos",
+      "summary": "Privação de sono, desmembramento, clima, fogo, venenos, infecção, sufocamento e transformação.",
+      "page": 32,
+      "marker": "Privação"
+    },
+    {
+      "category": "regras",
+      "title": "Movimento",
+      "summary": "Velocidade, formas de movimento e distância.",
+      "page": 33,
+      "marker": "Movimento"
+    },
+    {
+      "category": "regras",
+      "title": "Conhecimento",
+      "summary": "Conhecimento profissional e descobertas.",
+      "page": 34,
+      "marker": "Conhecimento"
+    },
+    {
+      "category": "regras",
+      "title": "Sentidos",
+      "summary": "Som e audição, luz e visão, obscurecimento, vento, sentidos especiais, busca e ocultação.",
+      "page": 34,
+      "marker": "Sentidos"
+    },
+    {
+      "category": "regras",
+      "title": "Comunicação e Disposição",
+      "summary": "Comunicação, percebendo e mudando a disposição das criaturas.",
+      "page": 36,
+      "marker": "Comunicação"
+    },
+    {
+      "category": "regras",
+      "title": "Desafios Sociais",
+      "summary": "Transação, apelo, argumentação, aliança, coerção e os desafios sociais típicos.",
+      "page": 37,
+      "marker": "Desafios Sociais"
+    },
+    {
+      "category": "regras",
+      "title": "Idiomas",
+      "summary": "Idiomas dos confins, idiomas secretos, leitura e comunicação sem fala.",
+      "page": 40,
+      "marker": "Idiomas nos Confins"
+    },
+    {
+      "category": "regras",
+      "title": "Combate: Fundamentos",
+      "summary": "Rodadas, turnos, campo de batalha, movimento em combate e suas complicações.",
+      "page": 41,
+      "marker": "Combate"
+    },
+    {
+      "category": "regras",
+      "title": "Ações em Combate",
+      "summary": "Atacar, atrapalhar, conjurar, correr, defender, esconder e as demais ações e reações.",
+      "page": 47,
+      "marker": "Ações em Combate"
+    },
+    {
+      "category": "regras",
+      "title": "Atacando",
+      "summary": "Armas, resolução de ataques, circunstâncias de combate, dano bônus, ataques múltiplos e opções de ataque.",
+      "page": 49,
+      "marker": "Atacando"
+    },
+    {
+      "category": "regras",
+      "title": "Conjurando Feitiços",
+      "summary": "Alvo, duração, rolagens e rituais — as regras gerais de conjuração.",
+      "page": 52,
+      "marker": "Conjurando Feitiços"
+    },
+    {
+      "category": "regras",
+      "title": "Perseguições",
+      "summary": "Turnos de perseguido e perseguidor, complicações e como perseguições terminam.",
+      "page": 53,
+      "marker": "Perseguições"
+    },
+    {
+      "category": "equipamentos",
+      "title": "Dinheiro, Qualidade e Carga",
+      "summary": "O valor das coisas, qualidade e disponibilidade de itens e os limites de carga.",
+      "page": 55,
+      "marker": "O Valor das Coisas"
+    },
+    {
+      "category": "equipamentos",
+      "title": "Armaduras",
+      "summary": "Armaduras leves, médias e pesadas, escudos e suas variações de qualidade.",
+      "page": 56,
+      "marker": "Armaduras"
+    },
+    {
+      "category": "equipamentos",
+      "title": "Armas",
+      "summary": "Tabelas de armas por manuseio, traços de armas e descrições.",
+      "page": 57,
+      "marker": "Armas"
+    },
+    {
+      "category": "equipamentos",
+      "title": "Vestimentas e Acessórios",
+      "summary": "Roupas, cosméticos, próteses e itens de uso pessoal.",
+      "page": 62,
+      "marker": "Vestimentas"
+    },
+    {
+      "category": "equipamentos",
+      "title": "Conjuntos e Ferramentas",
+      "summary": "Kits, ferramentas e equipamento de aventureiro.",
+      "page": 66,
+      "marker": "Conjuntos e Ferramentas"
+    },
+    {
+      "category": "equipamentos",
+      "title": "Animais e Equipamento Animal",
+      "summary": "Montarias, animais de carga e o equipamento para eles.",
+      "page": 68,
+      "marker": "Animais e Equipamento Animal"
+    },
+    {
+      "category": "equipamentos",
+      "title": "Contratados",
+      "summary": "Profissionais, guardas e especialistas que podem ser contratados para uma expedição.",
+      "page": 70,
+      "marker": "Contratados"
+    },
+    {
+      "category": "equipamentos",
+      "title": "Itens Mágicos",
+      "summary": "Consumíveis, quinquilharias, armas e armaduras encantadas e outros objetos mágicos.",
+      "page": 71,
+      "marker": "Itens Mágicos"
+    }
+  ]
+}

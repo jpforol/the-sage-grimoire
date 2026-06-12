@@ -1,0 +1,22 @@
+---
+title: "Conhecimento"
+category: "regras"
+summary: "Conhecimento profissional e descobertas."
+source:
+  book: "livro-basico"
+  page: 34
+---
+
+
+Todo mundo sabe como fazer certas coisas e concordam sobre alguns fatos. Como alguém vivendo no mundo de Terre, você sabe as coisas a seguir. Esta lista não é exaustiva, mas dá uma ideia da compreensão de uma pessoa típica. • Como acender e manter uma fogueira. • Como coletar comida em terras com alimentos abundantes. • Como conseguir roupas e preparar a carne a partir de animais que você matar. • Como identificar água imprópria para beber. • Como usar equipamentos comuns e incomuns. • Como fazer a manutenção dos seus equipamentos. • As características básicas da terra em que você habita e o que há ao redor dessas terras. • A magia existe. Você ouviu falar que os deuses às vezes andam sobre a terra e concedem poderes aos seus servos. • Um pouco sobre as principais religiões, suas doutrinas e dogmas. • Como cuidar e alimentar um animal. • Como realizar comércio. • Como se alimentar, vestir e limpar, bem como cuidar de suas outras necessidades físicas. • Como ler e escrever. • As estações e sua passagem, o clima, as principais constelações e outros fenômenos relacionados a viver no mundo. • Identificar criaturas comuns que você encontrar. • Qualquer outra coisa que uma pessoa vivendo em uma sociedade pré-industrial saberia. Conhecimento Profissional Além do que você sabe em comum com as outras pessoas, você também tem conhecimentos relacionados à sua profissão, bem como às trilhas que escolheu.
+
+**Lendas E Histórias:** Você consegue se lembrar de detalhes sobre membros lendários da sua profissão, bem como de membros famosos e infames da sua profissão nas suas terras e nos arredores de onde vive. Se você for um ferreiro que trabalhou em uma certa vila, você sabe se há um ferreiro famoso na cidade vizinha.
+
+**Tarefas E Atividades:** Você sabe como realizar tarefas e atividades diretamente relacionadas com a sua profissão e suas trilhas. Se você for um escriba, você sabe como fazer as iluminuras de um manuscrito. Se for um poeta, pode fazer poesia. Se for um criminoso, provavelmente consegue abrir uma tranca usando gazuas. Para tarefas difíceis diretamente relacionadas com a sua profissão, somente você consegue realizar a tarefa. Uma pessoa que não seja uma falsificadora não consegue criar uma falsificação crível, por exemplo. Além disso, quando realizar tais tarefas, o Sábio pode conceder um sucesso automático ou uma ou mais dádivas à sua rolagem de atributo.
+
+**Competência:** Você é considerado competente em qualquer trabalho que realizar relacionado à sua profissão. Entre as missões, se conseguir encontrar trabalho, você consegue prover para si uma qualidade de vida típica de membros da sua profissão.
+
+**Reconhecer Qualidade:** Você consegue identificar a qualidade de qualquer bem ou serviço produzido por um membro da sua profissão. Você pode identificar boa escrita se for um escritor, culinária boa ou ruim se for cozinheiro ou serviços notáveis ou terríveis se for serviçal.
+
+**Benefícios Tangenciais:** A sua profissão também lhe concede benefícios em tarefas não diretamente relacionadas ao seu trabalho a critério do Sábio. Uma tarefa impossível pode ser possível para você, mesmo que difícil, ou tarefas difíceis podem ser mais fáceis. O Sábio também pode revelar informações adicionais nas descrições baseado na sua especialidade. Descobertas Você pode saber algo, não saber algo ou achar que sabe algo. Se você achar que saberia de algo, você pode pedir ao Sábio para ele fazer uma rolagem de Intelecto em seu nome. Se a rolagem for um sucesso, o Sábio lhe dirá se você sabe ou não sobre o tópico e o que dele você consegue se lembrar. Se a rolagem resultar em um fracasso, o Sábio pode lhe dizer qualquer coisa e deixar você para decidir se o que descobriu é verdadeiro ou não. Rolagens subsequentes para descobrir a mesma informação fracassam até você ter acesso a novos detalhes. Se você estiver diante de um tópico do qual não consegue descobrir muito, obter essa informação representa um avanço significativo do enredo e deve precisar de um pouco mais de esforço do que uma única rolagem. Em vez de importunar o Sábio com perguntas, procure maneiras dentro da história para o seu personagem descobrir a informação, como vasculhar uma biblioteca, consultar um especialista, bisbilhotar uma conversa particular ou outras atividades razoáveis que lhe concederiam esse conhecimento.
+
