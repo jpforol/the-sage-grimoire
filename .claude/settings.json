@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(.venv/Scripts/python.exe -X utf8 -c ' *)"
+      "Bash(.venv/Scripts/python.exe -X utf8 -c ' *)",
+      "Bash(curl -s \"https://jpforol.github.io/the-sage-grimoire/\")",
+      "Bash(curl -s -o /dev/null -w \"cache: %{http_code}\\\\n\" -H \"Cache-Control: no-cache\" \"https://jpforol.github.io/the-sage-grimoire/\")"
     ]
   }
 }

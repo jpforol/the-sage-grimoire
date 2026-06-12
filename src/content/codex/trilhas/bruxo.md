@@ -8,7 +8,6 @@ source:
   book: "livro-basico"
   page: 191
 ---
-
 Bruxos e bruxas verdadeiros pertencem à Alta Ordem Secreta da Bruxaria, uma instituição fundada antes das primeiras cidades pelos mais antigos praticantes de magia. Nas suas comunidades, os bruxos servem como sábios, curandeiros, protetores e conselheiros. As pessoas os procuram quando precisam de remédios, amuletos e outras coisas para facilitar suas vidas. Tornar-se um bruxo significa fazer uma escolha sobre como você pretende usar a magia. Se você decidir ajudar os outros, curá-los e protegê-los, você seguirá o caminho da mão direita da magia branca. Se você aceitar as trevas, a dor e o sofrimento, você seguirá o caminho da mão esquerda da magia negra. E, se você trilhar a estrada entre os dois, siga o caminho do meio da magia cinza.
 
 ## Nível 3
@@ -23,7 +22,13 @@ Bruxos e bruxas verdadeiros pertencem à Alta Ordem Secreta da Bruxaria, uma ins
 
 **Bruxaria (Mágico):** Você pode usar uma ação para realizar um efeito mágico inofensivo à sua escolha. O efeito pode ser qualquer coisa que você imaginar, sujeito às seguintes limitações: ele não pode replicar nenhum outro feitiço ou talento mágico, não pode prejudicar nenhuma criatura ou objeto e não dura mais de 1 minuto. Exemplos incluem acender uma vela à distância, aquecer alimento, criar uma esfera de luz tênue, refrescar um ambiente com um odor agradável e assim por diante.
 
-**Caminhos da Bruxaria (Mágico):** Escolha um dos benefícios a seguir. A sua escolha afeta outros talentos que você receber desta trilha. • Magia Branca: Você pode usar uma ação para alvejar uma criatura ao seu alcance. Você toca o alvo e ele cura 2d6 de dano ou encerra uma aflição que o esteja afetando. A quantidade de dano curado aumenta para 4d6 no nível 6 e 6d6 no nível 9. Você pode usar este talento uma quantidade de vezes igual ao seu nível e recupera os usos gastos ao repousar. • Magia Cinza: Quando você fizer uma rolagem de atributo como parte de um efeito mágico que você criar, você faz a rolagem com 1 dádiva. • Magia Negra: quando você causar dano a uma única criatura com um efeito mágico que você criar, a criatura sofre 1d6 de dano extra. Este dano aumenta para 2d6 no nível 6 e 3d6 no nível 9. Você pode usar este talento uma quantidade de vezes igual ao seu nível e recupera os usos gastos ao repousar.
+**Caminhos da Bruxaria (Mágico):** Escolha um dos benefícios a seguir. A sua escolha afeta outros talentos que você receber desta trilha. 
+
+• **Magia Branca**: Você pode usar uma ação para alvejar uma criatura ao seu alcance. Você toca o alvo e ele cura 2d6 de dano ou encerra uma aflição que o esteja afetando. A quantidade de dano curado aumenta para 4d6 no nível 6 e 6d6 no nível 9. Você pode usar este talento uma quantidade de vezes igual ao seu nível e recupera os usos gastos ao repousar. 
+
+• **Magia Cinza**: Quando você fizer uma rolagem de atributo como parte de um efeito mágico que você criar, você faz a rolagem com 1 dádiva. 
+
+• **Magia Negra**: quando você causar dano a uma única criatura com um efeito mágico que você criar, a criatura sofre 1d6 de dano extra. Este dano aumenta para 2d6 no nível 6 e 3d6 no nível 9. Você pode usar este talento uma quantidade de vezes igual ao seu nível e recupera os usos gastos ao repousar.
 
 ## Nível 4
 
