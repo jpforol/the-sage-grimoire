@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.astro/
+
+# Disposable intermediates
+.tmp/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Source PDFs (not committed — keep the repo light)
+sources/*.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
