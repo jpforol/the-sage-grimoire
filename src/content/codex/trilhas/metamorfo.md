@@ -53,7 +53,6 @@ A magia de Alteração torna a sua forma fluida. Você se liberta dos limites qu
 
 **Armas Naturais:** Você tem garras e dentes que causam 4d6 de dano. Quando atacar com eles, você faz a rolagem com 2 dádivas.
 
-## Caminhos de Mestre
 
 ## Nível 10
 

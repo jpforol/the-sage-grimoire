@@ -37,10 +37,3 @@ Você arrombou a fechadura para que seus amigos não tivessem que derrubar a por
 
 **Fazer Acontecer:** Quando você fizer uma rolagem de atributo, você pode adicionar 10 ao resultado. Quando usar este talento, você perde acesso a ele por 1 minuto.
 
-## Trilhas de Especiialista
-
-## Nível 9
-
-**Vida:** +8, Bônus de Dano: +1d6
-
-**Praticamente Inofensivo:** Inimigos tratam você como inofensivo e não alvejam você com seus ataques e efeitos prejudiciais. Se você prejudicar ou roubar um inimigo, o inimigo fica imune a este talento.

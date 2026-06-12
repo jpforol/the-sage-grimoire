@@ -9,7 +9,7 @@ source:
   page: 240
 ---
 
-Capítulo 6 Você aprende os segredos da Criomancia, descobrindo mais maneiras de moldar o gelo e criar frio com magia. Ao seu comando, você pode congelar seus inimigos onde estiverem ou devastá-los com lascas de gelo serrilhadas. O frio se derrama do seu corpo, apesar de você não mais senti-lo, e a magia dá à sua pele uma coloração azulada. O inverno está sempre a um estalar de dedos.
+Você aprende os segredos da Criomancia, descobrindo mais maneiras de moldar o gelo e criar frio com magia. Ao seu comando, você pode congelar seus inimigos onde estiverem ou devastá-los com lascas de gelo serrilhadas. O frio se derrama do seu corpo, apesar de você não mais senti-lo, e a magia dá à sua pele uma coloração azulada. O inverno está sempre a um estalar de dedos.
 
 ## Nível 7
 

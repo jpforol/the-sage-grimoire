@@ -63,6 +63,3 @@ Experimentos com a magia elemental, como a Aeromancia ou a Piromancia, revelam v
 
 **Terra:** Sua Vida aumenta em 20.
 
-## Trilhas de Especiialista
-
-3D6 EFEITO 3D6 EFEITO Aumente a sua Vida em 3 até o seu próximo descanso. O espírito lhe concede o conhecimento e as conjurações de um feitiço de especialista à sua escolha de qualquer tradição. O feitiço deve ser algum que você ainda não aprendeu. Você mantém o conhecimento desse feitiço até repousar.

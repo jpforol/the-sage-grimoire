@@ -11,7 +11,6 @@ source:
 
 A deusa tripartite lhe concedeu suas bênçãos, dando a você a capacidade de prolongar ou cortar os fios do destino pertencentes às pessoas que encontrar. A sua aparência muda dependendo do aspecto que perceber você.
 
-## Caminhos de Mestre
 
 ## Nível 7
 

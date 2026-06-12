@@ -49,4 +49,3 @@ A busca pela magia consome você. Você se aventura pelo mundo para descobrir se
 
 **Proteção Contra Magia:** Enquanto estiver sob efeito do seu talento Manto Mágico, você impõe 1 revés em rolagens de efeitos mágicos feitos contra você. Você faz rolagens para resistir a efeitos mágicos com 1 dádiva. Por fim, quando você usar seu talento Refrear Ataque, você pode fazer uma rolagem de sorte. Em um sucesso, os efeitos do seu manto Arcano persistem.
 
-## Trilhas de Especiialista

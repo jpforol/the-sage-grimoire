@@ -23,7 +23,6 @@ As cicatrizes no seu corpo contam a história da sua vida. Uma fileira de pontin
 
 ## Nível 8
 
-Capítulo 6
 
 **Vida:** +18, Bônus de Dano: +1d6
 

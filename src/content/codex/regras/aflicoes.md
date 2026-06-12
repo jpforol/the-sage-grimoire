@@ -12,7 +12,83 @@ Além do dano, você pode sofrer todo tipo de efeito prejudicial, alguns dos qua
 
 ## MAEGAN FICA PRESA
 
-Maegan, uma magista de habilidade considerável, é vítima de uma armadilha adesiva no chão que faz com que ela fique restringida até superar essa aflição. Antes de ela ter uma chance de escapar, uma horrenda aranha gigante lança sobre ela sua teia, o que também faz com que ela fique contida. Ela não sofre efeitos adicionais por estar restringida duas vezes, mas deve tanto remover as teias da aranha quanto vencer a cola no chão para remover a aflição restringida de si. Amaldiçoado Você faz rolagens de sorte com 1 revés. Amedrontado Você teme a fonte desta aflição — uma criatura, um objeto, um espaço ou alguma outra coisa. Enquanto você tiver linha de visão para a fonte do seu medo, você faz rolagens de atributo com 1 revés e concede 1 dádiva em rolagens de atributo contra você. Atordoado Você não pode usar ações ou reações. A sua Velocidade diminui a 0 e você não se beneficia de aumentos à Velocidade até esta aflição terminar. Você concede 2 dádivas em rolagens contra você e faz rolagens de atributo com 2 reveses. Cego Você não consegue enxergar, portanto não tem linha de visão para nada. Você trata todas as criaturas e objetos como estando invisíveis (veja a página 50). Se você quiser atacar ou interagir com alguma coisa, deve supor a localização do alvo ou localizá-lo usando outros sentidos, o que geralmente significa que você faz a rolagem com 3 reveses. Você não consegue usar reações que dependam da visão. Por fim, sua Velocidade é reduzida pela metade. Confuso Você fica incapaz de compreender o que acontece ao seu redor. Você não pode usar reações e faz rolagens de Intelecto e Vontade com 1 revés. Controlado Você fica sob o controle da fonte desta aflição. Seu turno acontece junto com o do seu controlador e ele decide o que você faz, usando os seus traços, talentos e feitiços. Se você já tiver feito um turno ao receber esta aflição, você faz um turno como descrito na rodada seguinte. Enquanto controlado, você trata a fonte desta aflição como um aliado. Debilitado A aflição debilitado afeta o atributo especificado pelo efeito prejudicial, então você pode, por exemplo, ter sua Força debilitada ou seu Intelecto debilitado. Você rola com 1 revés ao usar o atributo especificado e você concede 1 dádiva em rolagens contra o atributo especificado. Enfraquecido Você faz rolagens de Força e de Agilidade com 1 revés, e você concede 1 dádiva em rolagens contra sua Força e Agilidade. Além disso, a sua Velocidade é reduzida pela metade e você não se beneficia de aumentos à Velocidade. Envenenado Você foi submetido a uma peçonha, veneno ou outro tipo de toxina. Você faz rolagens de atributo com 1 revés e concede 1 dádiva em rolagens contra você. Além disso, você perde 1d6 de Vida ao final de cada rodada. Incendiado Um efeito pode fazer você pegar fogo. Você sofre 1d6 de dano ao final de cada rodada até o fogo ser apagado, normalmente com uma rolagem bem-sucedida de sorte. Você pode apagar as chamas com água, ou sufocá-las com um cobertor ou objeto similar. Uma criatura que ficar prostrada antes de tentar superar as chamas faz a rolagem com 1 dádiva. Inconsciente Você não pode usar ações ou reações. A sua Velocidade diminui a 0 e você não se beneficia de aumentos à Velocidade. Você não recebe informações sensoriais. Você concede 3 dádivas em rolagens contra você e você fracassa automaticamente em todas as rolagens de atributo. Adormecido Se você estiver inconsciente por estar dormindo naturalmente, você deixa de estar inconsciente quando uma criatura usar uma ação para chacoalhar você, chutá-lo ou fazer outra coisa para acordar você. Um barulho alto pode remover a aflição se você tiver sucesso em uma rolagem de sorte. O tempo passado dormindo conta como repouso para os propósitos de curar dano (veja Repouso na página 30). Se o seu sono não for interrompido, você acorda naturalmente quando quiser. Lento Se sua Velocidade for maior que 2, ela reduz a 2. Essa aflição não aumenta a Velocidade. Prostrado Você está deitado no chão. Você não pode usar reações. Você concede 1 dádiva em rolagens feitas para atacar você com armas corpo a corpo, mas impõe 1 revés em rolagens feitas para atacar você com armas à distância. Você somente pode usar seu movimento para rastejar ou se levantar. Restringido A sua Velocidade diminui a 0 e você não se beneficia de aumentos à Velocidade até esta aflição terminar. Além disso, criaturas que fizerem rolagens contra a sua Agilidade recebem um sucesso automático. Surdo Você não consegue ouvir. Você não pode fazer reações que dependam da audição e não é afetado por efeitos que dependam da audição. Vulnerável Você concede 1 dádiva em rolagens para atacar você e em rolagens feitas contra os seus atributos. Prejudicar O jogo usa o termo “prejudicar” como abreviação para qualquer efeito que possa causar dano, fazer você perder Vida, causar uma aflição ou submeter você a qualquer outro efeito prejudicial, como movimento forçado ou a perda de posses materiais. Soterrado Quando você é soterrado, você fica prostrado e detritos cobrem o seu corpo completamente ou quase. Isso pode acontecer quando alguém joga você em um fosso e o cobre com terra, ou quando o teto cede e destroços caem sobre a sua cabeça. Ser soterrado limita a sua capacidade de se mover, pois obstáculos sólidos cercam você por todos os lados. Se você puder abrir um espaço, você pode se mover por esse espaço rastejando. Os detritos bloqueiam sua linha de visão para qualquer coisa além deles, e você tem cobertura total contra efeitos que se originem além do seu espaço. Normalmente, os detritos contam como um único obstáculo para os propósitos de ouvir e se fazer ser ouvido, mas podem contar como mais obstáculos, caso você esteja enterrado profundamente. Além do mais, você pode ser submetido aos efeitos de sufocamento e, se estiver sob uma massa pesada, também perde 1d6 de Vida ao final de cada rodada até ser esmagado. Se você consegue ou não escavar para se libertar depende dos detritos que o recobrem. Você pode escavar a terra, areia, neve e materiais soltos, mas rochas pesadas, grandes pedaços de gelo ou chapas de metal tornam a fuga impossível sem ajuda ou magia. Você pode usar uma ação para escavar 30 centímetros de material solto. Outras criaturas podem conseguir libertar você usando ferramentas pesadas para remover os detritos.
+Maegan, uma magista de habilidade considerável, é vítima de uma armadilha adesiva no chão que faz com que ela fique restringida até superar essa aflição. Antes de ela ter uma chance de escapar, uma horrenda aranha gigante lança sobre ela sua teia, o que também faz com que ela fique contida. Ela não sofre efeitos adicionais por estar restringida duas vezes, mas deve tanto remover as teias da aranha quanto vencer a cola no chão para remover a aflição restringida de si.
+
+### Amaldiçoado
+
+Você faz rolagens de sorte com 1 revés.
+
+### Amedrontado
+
+Você teme a fonte desta aflição — uma criatura, um objeto, um espaço ou alguma outra coisa. Enquanto você tiver linha de visão para a fonte do seu medo, você faz rolagens de atributo com 1 revés e concede 1 dádiva em rolagens de atributo contra você.
+
+### Atordoado
+
+Você não pode usar ações ou reações. A sua Velocidade diminui a 0 e você não se beneficia de aumentos à Velocidade até esta aflição terminar. Você concede 2 dádivas em rolagens contra você e faz rolagens de atributo com 2 reveses.
+
+### Cego
+
+Você não consegue enxergar, portanto não tem linha de visão para nada. Você trata todas as criaturas e objetos como estando invisíveis (veja a página 50). Se você quiser atacar ou interagir com alguma coisa, deve supor a localização do alvo ou localizá-lo usando outros sentidos, o que geralmente significa que você faz a rolagem com 3 reveses. Você não consegue usar reações que dependam da visão. Por fim, sua Velocidade é reduzida pela metade.
+
+### Confuso
+
+Você fica incapaz de compreender o que acontece ao seu redor. Você não pode usar reações e faz rolagens de Intelecto e Vontade com 1 revés.
+
+### Controlado
+
+Você fica sob o controle da fonte desta aflição. Seu turno acontece junto com o do seu controlador e ele decide o que você faz, usando os seus traços, talentos e feitiços. Se você já tiver feito um turno ao receber esta aflição, você faz um turno como descrito na rodada seguinte. Enquanto controlado, você trata a fonte desta aflição como um aliado.
+
+### Debilitado
+
+A aflição debilitado afeta o atributo especificado pelo efeito prejudicial, então você pode, por exemplo, ter sua Força debilitada ou seu Intelecto debilitado. Você rola com 1 revés ao usar o atributo especificado e você concede 1 dádiva em rolagens contra o atributo especificado.
+
+### Enfraquecido
+
+Você faz rolagens de Força e de Agilidade com 1 revés, e você concede 1 dádiva em rolagens contra sua Força e Agilidade. Além disso, a sua Velocidade é reduzida pela metade e você não se beneficia de aumentos à Velocidade.
+
+### Envenenado
+
+Você foi submetido a uma peçonha, veneno ou outro tipo de toxina. Você faz rolagens de atributo com 1 revés e concede 1 dádiva em rolagens contra você. Além disso, você perde 1d6 de Vida ao final de cada rodada.
+
+### Incendiado
+
+Um efeito pode fazer você pegar fogo. Você sofre 1d6 de dano ao final de cada rodada até o fogo ser apagado, normalmente com uma rolagem bem-sucedida de sorte. Você pode apagar as chamas com água, ou sufocá-las com um cobertor ou objeto similar. Uma criatura que ficar prostrada antes de tentar superar as chamas faz a rolagem com 1 dádiva.
+
+### Inconsciente
+
+Você não pode usar ações ou reações. A sua Velocidade diminui a 0 e você não se beneficia de aumentos à Velocidade. Você não recebe informações sensoriais. Você concede 3 dádivas em rolagens contra você e você fracassa automaticamente em todas as rolagens de atributo.
+
+### Adormecido
+
+Se você estiver inconsciente por estar dormindo naturalmente, você deixa de estar inconsciente quando uma criatura usar uma ação para chacoalhar você, chutá-lo ou fazer outra coisa para acordar você. Um barulho alto pode remover a aflição se você tiver sucesso em uma rolagem de sorte. O tempo passado dormindo conta como repouso para os propósitos de curar dano (veja Repouso na página 30). Se o seu sono não for interrompido, você acorda naturalmente quando quiser.
+
+### Lento
+
+Se sua Velocidade for maior que 2, ela reduz a 2. Essa aflição não aumenta a Velocidade.
+
+### Prostrado
+
+Você está deitado no chão. Você não pode usar reações. Você concede 1 dádiva em rolagens feitas para atacar você com armas corpo a corpo, mas impõe 1 revés em rolagens feitas para atacar você com armas à distância. Você somente pode usar seu movimento para rastejar ou se levantar.
+
+### Restringido
+
+A sua Velocidade diminui a 0 e você não se beneficia de aumentos à Velocidade até esta aflição terminar. Além disso, criaturas que fizerem rolagens contra a sua Agilidade recebem um sucesso automático.
+
+### Surdo
+
+Você não consegue ouvir. Você não pode fazer reações que dependam da audição e não é afetado por efeitos que dependam da audição.
+
+### Vulnerável
+
+Você concede 1 dádiva em rolagens para atacar você e em rolagens feitas contra os seus atributos.
+
+### Prejudicar
+
+O jogo usa o termo “prejudicar” como abreviação para qualquer efeito que possa causar dano, fazer você perder Vida, causar uma aflição ou submeter você a qualquer outro efeito prejudicial, como movimento forçado ou a perda de posses materiais.
+
+### Soterrado
+
+Quando você é soterrado, você fica prostrado e detritos cobrem o seu corpo completamente ou quase. Isso pode acontecer quando alguém joga você em um fosso e o cobre com terra, ou quando o teto cede e destroços caem sobre a sua cabeça. Ser soterrado limita a sua capacidade de se mover, pois obstáculos sólidos cercam você por todos os lados. Se você puder abrir um espaço, você pode se mover por esse espaço rastejando. Os detritos bloqueiam sua linha de visão para qualquer coisa além deles, e você tem cobertura total contra efeitos que se originem além do seu espaço. Normalmente, os detritos contam como um único obstáculo para os propósitos de ouvir e se fazer ser ouvido, mas podem contar como mais obstáculos, caso você esteja enterrado profundamente. Além do mais, você pode ser submetido aos efeitos de sufocamento e, se estiver sob uma massa pesada, também perde 1d6 de Vida ao final de cada rodada até ser esmagado. Se você consegue ou não escavar para se libertar depende dos detritos que o recobrem. Você pode escavar a terra, areia, neve e materiais soltos, mas rochas pesadas, grandes pedaços de gelo ou chapas de metal tornam a fuga impossível sem ajuda ou magia. Você pode usar uma ação para escavar 30 centímetros de material solto. Outras criaturas podem conseguir libertar você usando ferramentas pesadas para remover os detritos.
 
 ## Efeitos Cumulativos
 

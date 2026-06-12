@@ -47,14 +47,3 @@ Existe magia no mundo todo, mas a melhor e mais pura expressão da magia vem da 
 
 **Servo Vegetal (Mágico):** Você pode usar uma ação para montar um aliado a partir de matéria vegetal. Escolha um espaço de Tamanho 2 a até 5 metros de distância. Um servo vegetal se forma no chão nesse espaço e fica em pé. Ele permanece no seu serviço por 1 hora, mas colapsa em uma pilha de matéria vegetal inerte se ele ficar incapacitado. Quando o efeito terminar, o corpo dele produz comida suficiente para alimentar até 10 pessoas por 1 dia. Quando você usar este talento, você perde acesso a ele até repousar.
 
-## Trilhas de Especiialista
-
-**Defesa:** 12, Vida: 50
-
-**Atributos:** Força 14 (+4), Agilidade 12 (+2), Intelecto 8 (–2), Vontade 15 (+5)
-
-**Tamanho:** 2, Velocidade: 5 (Passos Longos)
-
-**Imune:** adormecido, amedrontado, cego, debilitado, enfraquecido, envenenado, prostrado restringido, surdo
-
-**Armas Naturais:** O servo vegetal usa seus prolongamentos como armas naturais que causam 4d6 de dano. O servo vegetal faz rolagens de ataque com 1 dádiva. Em um sucesso crítico, o alvo também fica restringido (sorte encerra).

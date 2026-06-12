@@ -78,7 +78,6 @@ A forma que você adota ao usar a sua Manifestação Divina depende do deus que 
 
 **Urbanus:** você mantém a sua forma geral, mas parece ser feito de casas, torres, tijolos e pedras. Você se torna uma cidade viva.
 
-## Caminhos de Mestre
 
 ## Nível 10
 

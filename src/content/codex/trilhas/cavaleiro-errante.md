@@ -63,8 +63,3 @@ A fama e o renome lhe concederam um título de nobreza, bem como o direito de po
 
 **Vida:** +12, Bônus de Dano: +1d6
 
-## Trilhas de Especiialista
-
-**Excelência com Armadura:** Se você estiver vestindo armadura média ou pesada quando sofrer dano, você pode usar este talento para reduzir pela metade o dano que sofrer. Quando usar este talento, você perde acesso a ele (sorte encerra).
-
-**Proeza com Armas:** Quando atacar usando uma espada, espada longa, lança de cavalaria ou maça, você faz a rolagem com 1 dádiva.

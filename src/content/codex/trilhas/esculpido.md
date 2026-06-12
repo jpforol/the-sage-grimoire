@@ -19,7 +19,6 @@ Durante uma missão anterior ou em alguma missão secundária entre suas expedi�
 
 **Armadura Esculpida (Mágico):** Você fica encoberto por um conjunto de armadura esculpida e permanece assim até morrer, momento em que a armadura desaparece. Se você voltar à vida, a armadura volta para encobri-lo. Se você se transformar, a armadura se transforma para acomodar a sua nova forma. A armadura esculpida conta como uma armadura leve que concede Defesa 18. A armadura o sustenta, e você fica imune à fome e à sede. Você ignora as consequências por repousar de armadura e ignora os efeitos de exposição ao clima. Por fim, quando uma criatura que você puder ver atacá-lo, você pode usar uma reação para aumentar a sua Defesa para 25 para esse ataque. Se o resultado for bem-sucedido, uma onda de energia percorre um espaço de Tamanho 5 centralizado em você. Cada criatura no espaço faz uma rolagem de Força. Em um fracasso, a criatura fica prostrada. No nível 8, a criatura também sofre 1d6 de dano. Quando você usar este aspecto do talento, você perde acesso a ele por 1 minuto.
 
-## Caminhos de Mestre
 
 ## Nível 8
 

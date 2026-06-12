@@ -31,25 +31,3 @@ Toda instituição religiosa tem seus inimigos. Cismas na fé podem causar confl
 
 **Correntes Divinas (Mágico):** Quando um inimigo começar o turno dele dentro do espaço afetado pelo seu talento Terreno Sagrado, o inimigo faz uma rolagem de Vontade. Anjos, demônios, espíritos, infernais, fadas e mortos-vivos rolam com 1 revés. Em um sucesso, o inimigo fica imune a este talento por 24 horas. Em um fracasso, o inimigo fica enfraquecido e restringido (sorte encerra ambos).
 
-## Trilhas de Especiialista
-
-## Nível 6
-
-**Vida:** +8, Bônus de Dano: +1d6
-
-**Feitiços:** Um de especialista
-
-**Templo Abençoado (Mágico):** Inimigos invisíveis dentro do espaço afetado pelo seu talento Terreno Sagrado ficam invisíveis enquanto permanecerem no espaço. Além disso, o espaço neutraliza todos os venenos artificiais nele e destrói todas as fontes de infecção.
-
-## Nível 9
-
-**Vida:** +8
-
-**Feitiços:** Um de mestre
-
-**Protetor do Templo (Mágico):** Você tem os seguintes benefícios adicionais enquanto estiver dentro do espaço afetado pelo seu talento Terreno Sagrado:
-
-* Você impõe 1 revés em rolagens de ataque contra você e contra seus aliados dentro do espaço afetado.
-* Você sofre metade do dano de todas as fontes comuns.
-* Você fica imune às aflições amedrontado, atordoado, confuso, controlado e vulnerável.
-* Se você não estiver restringido, quando um inimigo se mover para dentro do espaço afetado, você pode usar uma reação para se mover até 5 metros. Se você puder alcançar o inimigo antes do final do turno dele, você o ataca. Você acrescenta 10 ao resultado da sua rolagem e o ataque causa 4d6 de dano extra.

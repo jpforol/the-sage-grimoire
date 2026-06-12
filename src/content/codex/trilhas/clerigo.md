@@ -57,4 +57,3 @@ Quaisquer dúvidas sobre o seu propósito neste mundo caíram por terra quando s
 * Seus ataques causam 1d6 de dano extra.
 * Você pode usar este talento três vezes. Você recupera os usos gastos ao repousar.
 
-## Trilhas de Especiialista

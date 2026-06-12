@@ -25,7 +25,6 @@ source:
 
 **Seletor dos Mortos (Mágico):** Quando uma criatura a até 15 metros de distância morrer ou ficar incapacitada, você pode usar uma reação para se teletransportar a um espaço vazio à sua escolha a até 5 metros de distância da criatura que permitiu o uso deste talento. Quando chegar, você pode tomar a alma do alvo. O alvo morre e você recebe a bênção da deusa por 1 minuto. Cada inimigo a até 5 metros de distância de você fica vulnerável enquanto permanecer na área e seus ataques contra alvos vulneráveis causam 2d6 de dano extra.
 
-## Caminhos de Mestre
 
 ## Nível 8
 

@@ -23,7 +23,6 @@ Promessas de poder rápido e fácil seduziram você a estudar as Artes das Treva
 
 **Tentação Tenebrosa (Mágico):** Se você fracassar em uma rolagem de d20, você pode usar este talento para rerrolar o d20, mas deve usar o segundo resultado. Se o segundo resultado for um sucesso, você recebe 1 corrupção (até um máximo igual à metade do seu nível). Se o segundo resultado também for um fracasso, você fica atordoado até o final do seu próximo turno. Você mantém seus marcadores de corrupção ao repousar. Você faz rolagens de sorte com uma quantidade de reveses igual à quantidade de corrupção que você acumulou, mas seus feitiços e efeitos mágicos causam dano extra ou perda de Vida igual a duas vezes esse número. Quando usar este talento, você perde acesso a ele por 1 minuto. No nível 10, você pode usar este talento tanto quanto desejar.
 
-## Caminhos de Mestre
 
 ## Nível 8
 

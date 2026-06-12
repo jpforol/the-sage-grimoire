@@ -43,4 +43,3 @@ Espetáculos de combate acontecem há séculos. As pessoas amam assistir combate
 * O alvo fica cego até o final do seu próximo turno.
 * O alvo fica prostrado e não pode se levantar (sorte encerra).
 
-## Trilhas de Especiialista

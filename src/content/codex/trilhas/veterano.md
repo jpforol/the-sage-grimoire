@@ -35,8 +35,3 @@ Tenha você procurado brigas ou não, elas deram um jeito de achá-lo. É difíc
 
 **Maestria em Ataque:** Enquanto não estiver ferido, adicione 5 ao resultado da sua primeira rolagem de ataque em cada turno.
 
-## Trilhas de Especiialista
-
-## Trilhas da Fé
-
-Os deuses concedem grandes poderes aos seus servos fiéis. Aqueles que buscam fortalecer seus laços com as divindades podem realizar milagres poderosos ao seguirem as trilhas da fé.

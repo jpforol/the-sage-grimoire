@@ -31,7 +31,6 @@ Alguns podem chamar você de descuidado, até mesmo tolo, mas a sorte favorece o
 
 ## Caminhos de Mestre
 
-Capítulo 6
 
 ## Nível 10
 

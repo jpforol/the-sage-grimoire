@@ -25,7 +25,6 @@ O deus da magia, Abraxus, eleva seus servos mais valiosos e dedicados ao título
 
 **Revelações de Abraxus:** Você pode aprender feitiços de qualquer tradição, mesmo aquelas que ainda não descobriu.
 
-## Caminhos de Mestre
 
 ## Nível 8
 

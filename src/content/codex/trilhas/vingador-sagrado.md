@@ -47,8 +47,3 @@ De novo e de novo, aqueles com o mal em seus corações, aqueles que odeiam os d
 
 **Vingança Inevitável (Mágico):** Quando você atacar o alvo do seu talento Voto de Vingança, você pode rolar dois d20s adicionais e usar o resultado que preferir. Para cada dado que rolar 20, o ataque causa 3d6 de dano extra.
 
-## Trilhas de Especiialista
-
-## Trilhas da Perícia
-
-As trilhas da perícia oferecem rotas de desenvolvimento de especialidades específicas. Eles disponibilizam capacidades totalmente novas ou desbloqueiam características únicas e especiais. As trilhas da perícia também fornecem opções diversas para as pessoas que anseiam por flexibilidade.

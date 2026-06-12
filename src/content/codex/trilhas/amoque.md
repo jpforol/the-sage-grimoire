@@ -39,7 +39,6 @@ A sua visão fica vermelha e um uivo escapa da sua garganta. Toda a sua raiva, t
 
 ## Nível 9
 
-Capítulo 5
 
 **Vida:** +12, Bônus de Dano: +1d6
 

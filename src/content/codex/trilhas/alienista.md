@@ -11,7 +11,6 @@ source:
 
 Você estava certo o tempo todo. Os experimentos, os testes os livros — oh, quantos livros — provaram que tudo o que você pensou sobre a cosmologia do mundo era verdade. Você encontrou evidências incontroversas de que outras realidades, outros universos, existem para além do nosso. Com a suspeita se firmando em certeza, você usou a sua magia para abrir um buraco para uma realidade vizinha, mas encontrou somente morte e escuridão. Cada universo que você descobriu era o mesmo, completamente esvaziado de seres vivos. Justo quando a sua esperança começava a morrer, você descobriu algo, algo tão terrível, tão terrivelmente enlouquecedor, que você nunca mais será o mesmo. Você desenvolveu maneirismos e tiques incomuns e exibe os sinais de uma mente perturbada. A sua pesquisa pode ter infectado você com uma praga que mostra os sinais daquele lugar impossível. Talvez um tentáculo curioso saia por entre as suas costelas, um olho se abra e se estenda da palma da sua mão, ou ainda uma segunda boca, oculta por baixo do colarinho da sua camisa, sussurre verdades tão terríveis que ouvi-las traz a certeza de saber que você será eternamente impuro.
 
-## Caminhos de Mestre
 
 ## Nível 7
 

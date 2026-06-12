@@ -53,4 +53,3 @@ Os bardos existem como uma sociedade indefinida de músicos, atores e contadores
 
 **Música Enfeitiçadora (Mágico):** Se você estiver sob efeito do seu talento Música Manipuladora, você pode usar uma ação para enfeitiçar a sua audiência. Escolha quaisquer criaturas a até 5 metros de distância. Cada uma delas faz uma rolagem de Vontade. Anjos, criações, demônios, espíritos, infernais, fadas e mortos-vivos têm sucesso automático. Em um sucesso, o alvo fica imune a este talento por 24 horas. Em um fracasso, o alvo fica controlado (sorte encerra). Você pode usar este talento uma quantidade de vezes igual à metade do seu nível. Você recupera os usos gastos ao repousar.
 
-## Trilhas de Especiialista

@@ -21,7 +21,6 @@ O ofício de executor tem pouco apelo. Matar pessoas, mesmo aquelas que merecem,
 
 **Execução:** Você pode usar este talento quando o seu ataque corpo a corpo causar dano a um alvo ferido ou fizer um alvo ficar ferido. O alvo sofre 2d6 de dano extra, ou 4d6 no nível 10.
 
-## Caminhos de Mestre
 
 ## Nível 8
 

@@ -11,7 +11,6 @@ source:
 
 Você tem o dom para conjurar feitiços. Você provavelmente teve um pequeno treinamento formal, mas ninguém pode ensinar aquilo que você sabe fazer. Você é especialista em pegar feitiços de outro lugar e adicioná-los ao seu repertório. Nem você sabe de onde eles vêm: eles simplesmente surgem na sua mente quando você precisa deles. Uma pista sobre a natureza das suas capacidades é o seu talento para tomar a magia alheia. Quando um magista tenta conjurar um feitiço e você está por perto, você pode roubar a magia dele e adicioná-la à sua própria. Talvez, quando você usa seus dons, alguém em algum lugar esqueça como conjurar um feitiço que conhece, mesmo que por um breve período.
 
-## Caminhos de Mestre
 
 ## Nível 7
 

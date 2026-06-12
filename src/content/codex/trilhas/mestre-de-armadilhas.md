@@ -21,7 +21,6 @@ Você sabe como lidar com praticamente qualquer armadilha. Se você acabar encon
 
 ## Caminhos de Mestre
 
-Capítulo 6
 
 **Fabricação de Armadilhas:** Você pode construir armadilhas utilizando um conjunto de ferramentas em um espaço de Tamanho 5 centralizado em você. Isso requer 1 minuto de trabalho. Quando terminar, o espaço fica armado até ser ativado. No nível 10, a armadilha pode ser ativada três vezes antes de perder a funcionalidade. Quando uma criatura adentrar o espaço-alvo e não estiver ciente da armadilha, ela faz uma rolagem de sorte. No nível 10, você impõe 1 revés na rolagem. Em um fracasso, a criatura ativa a armadilha e perde 2d6 de Vida, ou 4d6 se o resultado da rolagem de sorte for um fracasso crítico. Você também escolhe se a criatura que ativou a armadilha fica restringida (sorte encerra) ou enfraquecida (sorte encerra). Alternativamente, você pode desconsiderar essas aflições para fazer com que a armadilha faça um barulho tão alto quanto um grito ao ser ativada. Uma criatura no espaço-alvo ou que possa alcançá-lo pode tentar encontrar a armadilha fazendo uma rolagem de Intelecto. Em um sucesso, a criatura sabe onde a armadilha está. Uma criatura com um conjunto de ferramentas e conhecimento profissional sobre desarmar armadilhas pode, se estiver ciente dela, passar 1 minuto trabalhando com o conjunto para desarmá-la. No final do período, a criatura faz uma rolagem de Intelecto. No nível 10, você impõe 1 revés na rolagem. Em um sucesso, a criatura desarma a armadilha. Em um fracasso crítico, ela ativa a armadilha.
 

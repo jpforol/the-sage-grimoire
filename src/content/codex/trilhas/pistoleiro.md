@@ -11,7 +11,6 @@ source:
 
 Alguns dizem que a pólvora negra corre nas suas veias, tão habilidoso você é com armas de fogo. De fato, uma mão firme, uma compreensão íntima do funcionamento de armas de fogo e tanta prática tornaram você um dos melhores atiradores que estas terras jamais viram. Você porta uma arma de fogo consigo o tempo todo, bem como munição secreta, pólvora e as ferramentas que precisa para reparar suas armas.
 
-## Caminhos de Mestre
 
 ## Nível 7
 

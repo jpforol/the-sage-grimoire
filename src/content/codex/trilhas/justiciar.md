@@ -13,7 +13,6 @@ A deusa da justiça e da ordem, Cega, encarna a legislação e sistemas de gover
 
 ## Nível 7
 
-Capítulo 6
 
 **Atributos:** Aumente três atributos em 1 ponto cada.
 

@@ -63,4 +63,3 @@ Bruxos e bruxas verdadeiros pertencem à Alta Ordem Secreta da Bruxaria, uma ins
 * **Evaporação Aparente (Magia Cinza):** Você pode usar uma ação para ficar invisível por 1 minuto. O efeito termina antecipadamente se você ferir outra criatura.
 * **Maldição Fatal (Magia Negra):** Você pode apagar a vida de uma criatura viva. Escolha uma criatura que você possa ver a até 10 metros de distância. O alvo fica amaldiçoado (sorte encerra). Toda vez que o alvo fizer uma rolagem de sorte para encerrar esta aflição, o alvo perde 3d6 de Vida. Quando você usar este talento, você perde acesso a ele até repousar.
 
-## Trilhas de Especiialista

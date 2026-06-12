@@ -35,26 +35,3 @@ Uma arma ancestral de poder inaudito acabou nas suas mãos, muito provavelmente 
 
 **Encantada:** A arma contém três feitiços de novato à sua escolha. Os feitiços podem ser de qualquer tradição. A arma contém as conjurações destes feitiços e você pode conjurá-los enquanto
 
-## Trilhas de Especiialista
-
-empunhar a arma como se os conhecesse. A arma recupera as conjurações gastas quando você repousar.
-
-**Ladra de Vida:** A arma gargalha e urra durante o combate. Uma criatura que sofrer dano por um ataque que você fizer com a arma deve ter sucesso em uma rolagem de sorte ou perde 1d6 de Vida. Se o alvo perder Vida, você cura dano igual à quantidade de Vida perdida pelo alvo.
-
-**Língua de Cobra:** Quando você atacar com a arma, veneno cruel escorre dela. Uma criatura de carne e osso que sofrer dano por um ataque que você fizer com a arma deve ter sucesso em uma rolagem de sorte ou fica envenenada (sorte encerra).
-
-**Quebra-Paredes:** Quando você causar dano com a arma, o alvo sofre 1d6 de dano extra e concede 1 dádiva em rolagens feitas para atacá-lo até o final da próxima rodada.
-
-**Retaliadora:** Uma vez por rodada, quando você sofrer dano de um inimigo a até 5 metros de distância, a arma escapa da sua mão para golpear o inimigo e então retorna à sua mão. O inimigo que permitiu o uso deste efeito faz uma rolagem de Agilidade com 1 revés. Em um fracasso, ele sofre 2d6 de dano.
-
-**Vorpal:** A arma tem um gume afiado. Sempre que você tiver um sucesso crítico em uma rolagem de ataque com a arma, o alvo sofre 1d6 de dano extra e você faz uma rolagem de sorte. Se o resultado da rolagem de sorte for 18 ou maior, o alvo sofre 5d6 de dano extra. Se o dano fizer o alvo ficar incapacitado, ele morre e você arranca a cabeça (ou extremidade equivalente) dele.
-
-## Nível 6
-
-**Vida:** +8 Golpe da Arma Relíquia (Mágico): Quando você tiver sucesso em uma rolagem de ataque com a sua arma relíquia, você pode usar este talento para causar 4d6 de dano extra. Quando usar este talento, você perde acesso a ele (sorte encerra).
-
-## Nível 9
-
-**Vida:** +8, Bônus de Dano: +1d6
-
-**Arma Desperta (Mágico):** A sua arma relíquia tem valores de Intelecto e de Vontade em 10 cada. A arma conhece três idiomas e pode falar. O Sábio decide a personalidade da arma e o propósito final para o qual ela foi forjada. Seus ataques com a arma causam 1d6 de dano extra. Se você ficar incapacitado, a arma se ergue no ar e luta em seu nome até você não mais estar incapacitado ou até você morrer. A arma usa as suas regras e tem os traços Flutuador e Voador. Toda vez que a arma fizer uma criatura ficar incapacitada e você estiver a até 15 metros de distância dela, você cura 1d6 de dano. Se você morrer, este efeito termina e a arma cai no chão, tornando-se uma arma comum até outro herdeiro assumi-la. Capítulo 5

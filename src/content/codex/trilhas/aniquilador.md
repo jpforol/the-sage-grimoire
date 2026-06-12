@@ -39,4 +39,3 @@ Pensar que existe uma razão para a existência expõe uma fraqueza que o aniqui
 
 **Aniquilação Horrenda (Mágico):** Quando você usar seu talento Rajada Destrutiva, você pode usar este talento para amplificar o efeito. Você deve tomar esta decisão antes de rolar os dados. Em um sucesso, o alvo sofre o dobro do dano. Contudo, você fracassa automaticamente na rolagem de Vontade que faz como resultado e as energias que irrompem de você causam 3d6 de dano extra.
 
-## Trilhas de Especiialista

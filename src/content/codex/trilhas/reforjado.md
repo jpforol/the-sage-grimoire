@@ -31,7 +31,6 @@ Depois de Kaen ser traído e assassinado pelos ciclopes, o Senhor Morte pegou a 
 
 **Moldar Metal (Mágico):** Você pode usar uma ação para alvejar um objeto de metal ao seu alcance. Você toca o alvo e altera o formato dele. O efeito é permanente. Com este talento, você pode transformar uma porta de ferro pequena em um escudo, ou uma maça em uma espada, pode reduzir um machado de batalha ao tamanho de uma machadinha removendo parte do metal, remodelar cota de malha em uma placa peitoral, transformar um garfo em uma colher, converter barras de metal em bolas de metal e assim por diante. Contanto que você tenha os materiais, você poderia combinar objetos de metal para fazer objetos maiores (como combinar dois martelos em um malho) ou reduzi-los para fazer algo menor. Para itens complexos, tais como chaves ou itens com partes móveis, você deve ter sucesso em uma rolagem de Intelecto ou você arruína o objeto.
 
-## Caminhos de Mestre
 
 ## Nível 10
 

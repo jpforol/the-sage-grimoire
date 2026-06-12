@@ -12,5 +12,3 @@ Criar um personagem envolve tomar uma grande decisão — a sua trilha de novato
 
 ## Trilhas de Novato
 
-TRILHA DESCRIÇÃO
-

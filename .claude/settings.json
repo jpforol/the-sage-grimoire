@@ -5,7 +5,9 @@
       "Bash(curl -s \"https://jpforol.github.io/the-sage-grimoire/\")",
       "Bash(curl -s -o /dev/null -w \"cache: %{http_code}\\\\n\" -H \"Cache-Control: no-cache\" \"https://jpforol.github.io/the-sage-grimoire/\")",
       "Bash(curl -s http://localhost:4321/the-sage-grimoire/trilhas/bruxo/)",
-      "Bash(curl -s http://localhost:4321/the-sage-grimoire/)"
+      "Bash(curl -s http://localhost:4321/the-sage-grimoire/)",
+      "Bash(curl -s \"https://jpforol.github.io/the-sage-grimoire/trilhas/bruxo/\")",
+      "Bash(.venv/Scripts/python.exe -X utf8 tools/clean_artifacts.py)"
     ]
   }
 }

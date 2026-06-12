@@ -51,10 +51,3 @@ Estresse, dor, treinamento extensivo ou algum outro esforço estilhaçou o que q
 
 **Esforço Psíquico (Mágico):** Você pode fazer uma rolagem de Intelecto ou de Vontade no lugar de qualquer rolagem de Força ou de Agilidade que você fizer. Além disso, quando você tiver o resultado de uma rolagem de Intelecto ou de Vontade, você pode usar este talento para somar 10 ao resultado, mas você então perde acesso ao talento por 1 minuto.
 
-## Trilhas de Especiialista
-
-Capítulo 6
-
-## Trilhas de Mestre
-
-Vendo a sua jornada até então, você ajudou cidades e vilas, salvando uma vida de cada vez, e confrontou as trevas que prosperavam nos ermos. Você conquistou tesouros em ruínas esquecidas e, em meio a tudo isso, seus talentos aumentaram. Eventualmente, você ouviu o chamado para enfrentar um mal ainda maior, oponentes que ameaçam não somente algumas poucas pessoas, mas regiões inteiras. Talvez você tenha enfrentado um dragão em seu covil ou eliminado um demônio escapado do Vazio e, novamente, suas habilidades aumentaram. Agora, você está prestes a cumprir seu destino e seus esforços para proteger os confins e, quem sabe, até mesmo as terras além. Você se tornou um mestre em seu ofício e decidiu aonde seu destino irá levá-lo. Ao atingirem o nível 7, cada membro do grupo escolhe uma trilha de mestre. As trilhas de mestre usam agrupamentos similares àqueles das trilhas de especialista, mas oferecem ainda mais especialização. das armas lhe permitem focar em armamentos e estilos de luta específicos. As trilhas dos deuses recompensam seu serviço constante a uma divindade específica. As trilhas da magia lhe permitem dominar uma tradição em particular, e as trilhas da proeza fazem um pouco de tudo. Você pode escolher qualquer trilha de mestre que desejar, mas, novamente, interpretar seu personagem será mais fácil quando sua trilha de escolha refletir os eventos passados e experiências de jogo.
