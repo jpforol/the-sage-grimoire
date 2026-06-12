@@ -234,6 +234,51 @@ main {
   border-color: var(--gold);
 }
 
+.filter-bar select {
+  width: 100%;
+  padding: 0.6rem 0.9rem;
+  font: inherit;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.filter-bar select:focus {
+  outline: none;
+  border-color: var(--gold);
+}
+
+.category-intro {
+  background: var(--surface);
+  border-left: 3px solid var(--gold);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 0.75rem 1rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.entry-group {
+  margin-bottom: 1.5rem;
+}
+
+.entry-group[hidden] {
+  display: none;
+}
+
+.group-header h2 {
+  font-size: 1.3rem;
+  margin: 1.5rem 0 0.25rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.group-header p {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  margin: 0 0 0.75rem;
+}
+
 .tag-filters {
   display: flex;
   flex-wrap: wrap;

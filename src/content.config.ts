@@ -7,19 +7,35 @@ const codex = defineCollection({
   schema: z
     .object({
       title: z.string().min(1),
-      category: z.enum(['classes', 'magias', 'itens', 'regras']),
+      category: z.enum([
+        'criacao-de-personagens',
+        'regras',
+        'equipamentos',
+        'magias',
+        'ancestralidades',
+        'trilhas',
+      ]),
+      subcategory: z
+        .enum(['novato', 'ancestralidade', 'especialista', 'mestre'])
+        .optional(),
       summary: z.string().min(1),
       tags: z.array(z.string()).default([]),
       stats: z.record(z.union([z.string(), z.number(), z.boolean()])).default({}),
       source: z
         .object({
-          book: z.string().min(1),
+          book: z.enum(['livro-basico', 'ancestralidades']),
           page: z.number().int().positive(),
         })
         .optional(),
       draft: z.boolean().default(false),
     })
-    .strict(),
+    .strict()
+    .refine((data) => data.category === 'trilhas' || data.subcategory === undefined, {
+      message: 'subcategory só é permitida na categoria trilhas',
+    })
+    .refine((data) => data.category !== 'trilhas' || data.subcategory !== undefined, {
+      message: 'entradas de trilhas exigem subcategory',
+    }),
 });
 
 export const collections = { codex };

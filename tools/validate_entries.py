@@ -17,8 +17,31 @@ from pathlib import Path
 
 import frontmatter
 
-CATEGORIES = {"classes", "magias", "itens", "regras"}
-ALLOWED_KEYS = {"title", "category", "summary", "tags", "stats", "source", "draft"}
+CATEGORIES = {
+    "criacao-de-personagens",
+    "regras",
+    "equipamentos",
+    "magias",
+    "ancestralidades",
+    "trilhas",
+}
+# Categories that define subcategories — and which values they accept.
+SUBCATEGORIES = {
+    "trilhas": {"novato", "ancestralidade", "especialista", "mestre"},
+}
+# Categories where subcategory is mandatory.
+SUBCATEGORY_REQUIRED = {"trilhas"}
+SOURCE_BOOKS = {"livro-basico", "ancestralidades"}
+ALLOWED_KEYS = {
+    "title",
+    "category",
+    "subcategory",
+    "summary",
+    "tags",
+    "stats",
+    "source",
+    "draft",
+}
 SLUG_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 
 
@@ -61,6 +84,17 @@ def validate_entry(path: Path, root: Path) -> list[str]:
                 f"'category' ({category}) não corresponde à pasta ({parent})"
             )
 
+    subcategory = meta.get("subcategory")
+    allowed_subs = SUBCATEGORIES.get(category, set())
+    if subcategory is not None and not allowed_subs:
+        errors.append(f"'subcategory' não é permitida na categoria '{category}'")
+    elif subcategory is not None and subcategory not in allowed_subs:
+        errors.append(
+            f"'subcategory' deve ser uma de {sorted(allowed_subs)}: '{subcategory}'"
+        )
+    elif subcategory is None and category in SUBCATEGORY_REQUIRED:
+        errors.append(f"entradas de '{category}' exigem 'subcategory'")
+
     slug = path.stem
     if not SLUG_RE.match(slug):
         suggestion = slugify(title) if isinstance(title, str) else "?"
@@ -93,8 +127,10 @@ def validate_entry(path: Path, root: Path) -> list[str]:
         else:
             book = source.get("book")
             page = source.get("page")
-            if not isinstance(book, str) or not book.strip():
-                errors.append("source.book obrigatório (string não vazia)")
+            if book not in SOURCE_BOOKS:
+                errors.append(
+                    f"source.book deve ser um de {sorted(SOURCE_BOOKS)}: '{book}'"
+                )
             if not isinstance(page, int) or page < 1:
                 errors.append("source.page deve ser inteiro positivo")
             extra = set(source) - {"book", "page"}

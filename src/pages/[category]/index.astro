@@ -26,5 +26,10 @@ const entries = await getCollection(
     <span class="count">({entries.length})</span>
   </h1>
   <p>{category.description}</p>
-  <FilterTable entries={entries} />
+  {category.intro && <p class="category-intro">{category.intro}</p>}
+  <FilterTable
+    entries={entries}
+    groups={category.subcategories}
+    groupByStat={category.groupByStat}
+  />
 </BaseLayout>

@@ -11,12 +11,12 @@ import argparse
 import sys
 from pathlib import Path
 
-from validate_entries import CATEGORIES, slugify
+from validate_entries import CATEGORIES, SUBCATEGORIES, SUBCATEGORY_REQUIRED, slugify
 
 TEMPLATE = """---
 title: "{title}"
 category: "{category}"
-summary: "TODO: resumo de uma linha mostrado nas listagens."
+{subcategory_line}summary: "TODO: resumo de uma linha mostrado nas listagens."
 tags: [{tags}]
 stats:
   exemplo: "valor"
@@ -32,7 +32,20 @@ def main() -> None:
     parser.add_argument("category", choices=sorted(CATEGORIES))
     parser.add_argument("title")
     parser.add_argument("--tags", default="", help="tags separadas por vírgula")
+    parser.add_argument(
+        "--subcategory",
+        default=None,
+        help="subcategoria (obrigatória para trilhas: novato|ancestralidade|especialista|mestre)",
+    )
     args = parser.parse_args()
+
+    allowed_subs = SUBCATEGORIES.get(args.category, set())
+    if args.category in SUBCATEGORY_REQUIRED and args.subcategory not in allowed_subs:
+        sys.exit(
+            f"'{args.category}' exige --subcategory com um de: {sorted(allowed_subs)}"
+        )
+    if args.subcategory and not allowed_subs:
+        sys.exit(f"'{args.category}' não aceita subcategoria")
 
     slug = slugify(args.title)
     if not slug:
@@ -45,9 +58,17 @@ def main() -> None:
     tags = ", ".join(
         f'"{t.strip().lower()}"' for t in args.tags.split(",") if t.strip()
     )
+    subcategory_line = (
+        f'subcategory: "{args.subcategory}"\n' if args.subcategory else ""
+    )
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_text(
-        TEMPLATE.format(title=args.title, category=args.category, tags=tags),
+        TEMPLATE.format(
+            title=args.title,
+            category=args.category,
+            tags=tags,
+            subcategory_line=subcategory_line,
+        ),
         encoding="utf-8",
     )
     print(f"Criado: {dest} (draft: true — publique removendo o draft)")

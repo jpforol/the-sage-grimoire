@@ -2,106 +2,184 @@
 import type { CollectionEntry } from 'astro:content';
 import { url } from '../utils/url';
 
-interface Props {
-  entries: CollectionEntry<'codex'>[];
+interface Group {
+  id: string;
+  label: string;
+  description?: string;
 }
 
-const { entries } = Astro.props;
+interface Props {
+  entries: CollectionEntry<'codex'>[];
+  /** Grouped sections by subcategory (e.g. trilhas). */
+  groups?: Group[];
+  /** Group + dropdown-filter by this stats key (e.g. magias → tradicao). */
+  groupByStat?: string;
+}
 
-const allTags = [...new Set(entries.flatMap((e) => e.data.tags))].sort((a, b) =>
-  a.localeCompare(b, 'pt-BR')
-);
-
-const sorted = [...entries].sort((a, b) =>
-  a.data.title.localeCompare(b.data.title, 'pt-BR')
-);
+const { entries, groups, groupByStat } = Astro.props;
 
 function slugOf(entry: CollectionEntry<'codex'>): string {
   return entry.id.split('/').pop() ?? entry.id;
 }
+
+function byTitle(a: CollectionEntry<'codex'>, b: CollectionEntry<'codex'>): number {
+  return a.data.title.localeCompare(b.data.title, 'pt-BR');
+}
+
+// Resolve sections: subcategory groups, stat groups, or a single anonymous one.
+let sections: { id: string; label: string; description?: string; items: CollectionEntry<'codex'>[] }[];
+
+if (groups) {
+  sections = groups.map((g) => ({
+    ...g,
+    items: entries.filter((e) => e.data.subcategory === g.id).sort(byTitle),
+  }));
+} else if (groupByStat) {
+  const values = [
+    ...new Set(entries.map((e) => String(e.data.stats[groupByStat] ?? 'Outros'))),
+  ].sort((a, b) => a.localeCompare(b, 'pt-BR'));
+  sections = values.map((v) => ({
+    id: v
+      .normalize('NFD')
+      .replace(/[^\w\s-]/g, '')
+      .trim()
+      .toLowerCase()
+      .replace(/[\s_]+/g, '-'),
+    label: v,
+    items: entries
+      .filter((e) => String(e.data.stats[groupByStat] ?? 'Outros') === v)
+      .sort(byTitle),
+  }));
+} else {
+  sections = [{ id: '', label: '', items: [...entries].sort(byTitle) }];
+}
+
+const showHeadings = Boolean(groups || groupByStat);
+const allTags = groupByStat
+  ? []
+  : [...new Set(entries.flatMap((e) => e.data.tags))].sort((a, b) =>
+      a.localeCompare(b, 'pt-BR')
+    );
 ---
 
-<div class="filter-bar" data-filter-root>
-  <input
-    type="search"
-    placeholder="Filtrar por nome…"
-    aria-label="Filtrar entradas por nome"
-    data-name-filter
-  />
-  {
-    allTags.length > 0 && (
-      <div class="tag-filters" role="group" aria-label="Filtrar por tags">
-        {allTags.map((tag) => (
-          <button type="button" aria-pressed="false" data-tag={tag}>
-            {tag}
-          </button>
-        ))}
-      </div>
-    )
-  }
-</div>
+<div data-filter-root>
+  <div class="filter-bar">
+    <input
+      type="search"
+      placeholder="Filtrar por nome…"
+      aria-label="Filtrar entradas por nome"
+      data-name-filter
+    />
+    {
+      groupByStat && sections.length > 1 && (
+        <select data-group-filter aria-label="Filtrar por grupo">
+          <option value="">Todas as tradições</option>
+          {sections.map((s) => (
+            <option value={s.id}>{s.label}</option>
+          ))}
+        </select>
+      )
+    }
+    {
+      allTags.length > 0 && (
+        <div class="tag-filters" role="group" aria-label="Filtrar por tags">
+          {allTags.map((tag) => (
+            <button type="button" aria-pressed="false" data-tag={tag}>
+              {tag}
+            </button>
+          ))}
+        </div>
+      )
+    }
+  </div>
 
-<ul class="entry-list" data-entry-list>
   {
-    sorted.map((entry) => (
-      <li
-        class="entry-row"
-        data-title={entry.data.title.toLowerCase()}
-        data-tags={entry.data.tags.join(',')}
-      >
-        <a href={url(`/${entry.data.category}/${slugOf(entry)}/`)}>
-          <h3>{entry.data.title}</h3>
-          <p>{entry.data.summary}</p>
-          {entry.data.tags.length > 0 && (
-            <span class="tags">
-              {entry.data.tags.map((tag) => (
-                <span class="tag">{tag}</span>
-              ))}
-            </span>
-          )}
-        </a>
-      </li>
+    sections.map((section) => (
+      <section class="entry-group" data-group={section.id} id={section.id || undefined}>
+        {showHeadings && section.items.length > 0 && (
+          <header class="group-header">
+            <h2>{section.label}</h2>
+            {section.description && <p>{section.description}</p>}
+          </header>
+        )}
+        <ul class="entry-list">
+          {section.items.map((entry) => (
+            <li
+              class="entry-row"
+              data-title={entry.data.title.toLowerCase()}
+              data-tags={entry.data.tags.join(',')}
+            >
+              <a href={url(`/${entry.data.category}/${slugOf(entry)}/`)}>
+                <h3>{entry.data.title}</h3>
+                <p>{entry.data.summary}</p>
+                {entry.data.tags.length > 0 && (
+                  <span class="tags">
+                    {entry.data.tags.map((tag) => (
+                      <span class="tag">{tag}</span>
+                    ))}
+                  </span>
+                )}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
     ))
   }
-</ul>
 
-<p class="no-results" data-no-results hidden>Nenhuma entrada corresponde aos filtros.</p>
+  <p class="no-results" data-no-results hidden>Nenhuma entrada corresponde aos filtros.</p>
 
-{entries.length === 0 && <p class="no-results">Nenhuma entrada ainda — em breve!</p>}
+  {entries.length === 0 && <p class="no-results">Nenhuma entrada ainda — em breve!</p>}
+</div>
 
 <script>
-  // Client-side filtering: name substring AND all selected tags (specs/codex-site.md).
+  // Client-side filtering: name substring AND all selected tags AND group dropdown
+  // (specs/codex-site.md). Accent-insensitive via NFD + combining-mark strip.
   function normalize(s: string): string {
-    return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    let out = '';
+    for (const ch of s.normalize('NFD')) {
+      const code = ch.charCodeAt(0);
+      if (code < 0x0300 || code > 0x036f) out += ch;
+    }
+    return out.toLowerCase();
   }
 
   document.querySelectorAll<HTMLElement>('[data-filter-root]').forEach((root) => {
     const nameInput = root.querySelector<HTMLInputElement>('[data-name-filter]');
+    const groupSelect = root.querySelector<HTMLSelectElement>('[data-group-filter]');
     const tagButtons = [...root.querySelectorAll<HTMLButtonElement>('[data-tag]')];
-    const list = document.querySelector<HTMLElement>('[data-entry-list]');
-    const noResults = document.querySelector<HTMLElement>('[data-no-results]');
-    if (!list) return;
-    const rows = [...list.querySelectorAll<HTMLElement>('.entry-row')];
+    const sections = [...root.querySelectorAll<HTMLElement>('.entry-group')];
+    const noResults = root.querySelector<HTMLElement>('[data-no-results]');
 
     function apply() {
       const query = normalize(nameInput?.value ?? '');
+      const group = groupSelect?.value ?? '';
       const activeTags = tagButtons
         .filter((b) => b.getAttribute('aria-pressed') === 'true')
         .map((b) => b.dataset.tag ?? '');
 
       let visible = 0;
-      for (const row of rows) {
-        const title = normalize(row.dataset.title ?? '');
-        const tags = (row.dataset.tags ?? '').split(',').filter(Boolean);
-        const matches =
-          title.includes(query) && activeTags.every((t) => tags.includes(t));
-        row.hidden = !matches;
-        if (matches) visible++;
+      for (const section of sections) {
+        const inGroup = !group || section.dataset.group === group;
+        let sectionVisible = 0;
+        for (const row of section.querySelectorAll<HTMLElement>('.entry-row')) {
+          const title = normalize(row.dataset.title ?? '');
+          const tags = (row.dataset.tags ?? '').split(',').filter(Boolean);
+          const matches =
+            inGroup &&
+            title.includes(query) &&
+            activeTags.every((t) => tags.includes(t));
+          row.hidden = !matches;
+          if (matches) sectionVisible++;
+        }
+        section.hidden = sectionVisible === 0;
+        visible += sectionVisible;
       }
-      if (noResults) noResults.hidden = visible > 0 || rows.length === 0;
+      if (noResults) noResults.hidden = visible > 0;
     }
 
     nameInput?.addEventListener('input', apply);
+    groupSelect?.addEventListener('change', apply);
     for (const button of tagButtons) {
       button.addEventListener('click', () => {
         const pressed = button.getAttribute('aria-pressed') === 'true';
