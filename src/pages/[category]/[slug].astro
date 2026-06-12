@@ -1,0 +1,60 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import StatBlock from '../../components/StatBlock.astro';
+import { getCategory } from '../../data/categories';
+import { url } from '../../utils/url';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('codex', ({ data }) => !data.draft);
+  return entries.map((entry) => ({
+    params: {
+      category: entry.data.category,
+      slug: entry.id.split('/').pop(),
+    },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const category = getCategory(entry.data.category);
+---
+
+<BaseLayout title={entry.data.title} description={entry.data.summary}>
+  <article data-pagefind-body>
+    <nav class="breadcrumb" aria-label="Localização">
+      <a href={url('/')}>Grimório</a>
+      &nbsp;›&nbsp;
+      <a href={url(`/${entry.data.category}/`)}>{category?.label}</a>
+    </nav>
+
+    <header class="entry-header">
+      <h1>{entry.data.title}</h1>
+      <p class="summary">{entry.data.summary}</p>
+      {
+        entry.data.tags.length > 0 && (
+          <div class="tags">
+            {entry.data.tags.map((tag) => (
+              <span class="tag">{tag}</span>
+            ))}
+          </div>
+        )
+      }
+    </header>
+
+    <StatBlock stats={entry.data.stats} />
+
+    <div class="entry-body">
+      <Content />
+    </div>
+
+    {
+      entry.data.source && (
+        <p class="entry-source">
+          Fonte: {entry.data.source.book}, página {entry.data.source.page}
+        </p>
+      )
+    }
+  </article>
+</BaseLayout>

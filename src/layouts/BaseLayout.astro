@@ -1,0 +1,62 @@
+---
+import '../styles/theme.css';
+import { CATEGORIES } from '../data/categories';
+import { url } from '../utils/url';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const {
+  title,
+  description = 'O Grimório do Sábio — o codex do nosso sistema de RPG.',
+} = Astro.props;
+
+const currentPath = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href={url('/favicon.svg')} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <title>{title} · O Grimório do Sábio</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="inner">
+        <a class="brand" href={url('/')}>
+          <span aria-hidden="true">📖</span>
+          <span>O Grimório do Sábio</span>
+        </a>
+        <nav class="site-nav" aria-label="Categorias">
+          {
+            CATEGORIES.map((cat) => (
+              <a
+                href={url(`/${cat.id}/`)}
+                aria-current={currentPath.includes(`/${cat.id}/`) ? 'true' : undefined}
+              >
+                {cat.label}
+              </a>
+            ))
+          }
+        </nav>
+      </div>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <p>Compêndio pessoal, sem fins comerciais — feito para a nossa mesa de jogo.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,469 @@
+/* The Sage Grimoire — dark grimoire theme (specs/codex-site.md) */
+
+:root {
+  --bg: #16110c;
+  --bg-soft: #1d1610;
+  --surface: #251c13;
+  --surface-raised: #2e2318;
+  --border: #4a3a26;
+  --border-soft: #382c1c;
+  --text: #e9dcc3;
+  --text-muted: #ab9678;
+  --gold: #d4a83b;
+  --gold-bright: #f0c75e;
+  --ember: #b3502e;
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.45);
+  --font-display: 'Cinzel', 'Georgia', serif;
+  --font-body: 'Alegreya', 'Georgia', serif;
+  --radius: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--bg);
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  color: var(--text);
+  background:
+    radial-gradient(ellipse at top, rgba(212, 168, 59, 0.05), transparent 60%),
+    var(--bg);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--gold-bright);
+  line-height: 1.2;
+  margin: 0 0 0.5em;
+}
+
+a {
+  color: var(--gold);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+a:hover {
+  color: var(--gold-bright);
+}
+
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+/* ---------- Header / footer ---------- */
+
+.site-header {
+  border-bottom: 1px solid var(--border-soft);
+  background: rgba(22, 17, 12, 0.92);
+  backdrop-filter: blur(6px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.site-header .inner {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 0.75rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.brand {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--gold-bright);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.1rem;
+  flex-wrap: wrap;
+}
+
+.site-nav a {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current='true'] {
+  color: var(--gold-bright);
+}
+
+.site-footer {
+  border-top: 1px solid var(--border-soft);
+  padding: 1.25rem;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+/* ---------- Home ---------- */
+
+.hero {
+  text-align: center;
+  padding: 2.5rem 0 1.5rem;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 6vw, 3.2rem);
+  margin-bottom: 0.3em;
+}
+
+.hero p {
+  color: var(--text-muted);
+  font-size: 1.15rem;
+  font-style: italic;
+  margin: 0 auto 1.5rem;
+  max-width: 36rem;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.category-card {
+  display: block;
+  background: var(--surface);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius);
+  padding: 1.4rem 1.2rem;
+  box-shadow: var(--shadow);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--gold);
+}
+
+.category-card .icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.category-card h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.category-card p {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  margin: 0 0 0.5rem;
+}
+
+.category-card .count {
+  font-size: 0.8rem;
+  color: var(--gold);
+  font-family: var(--font-display);
+  letter-spacing: 0.05em;
+}
+
+/* ---------- Category listing / filters ---------- */
+
+.page-title {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.page-title .count {
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-family: var(--font-body);
+}
+
+.filter-bar {
+  margin: 1.25rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.filter-bar input[type='search'] {
+  width: 100%;
+  padding: 0.6rem 0.9rem;
+  font: inherit;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.filter-bar input[type='search']:focus {
+  outline: none;
+  border-color: var(--gold);
+}
+
+.tag-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.tag-filters button {
+  font: inherit;
+  font-size: 0.82rem;
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.12s ease;
+}
+
+.tag-filters button:hover {
+  border-color: var(--gold);
+  color: var(--text);
+}
+
+.tag-filters button[aria-pressed='true'] {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: #1d1610;
+  font-weight: 700;
+}
+
+.entry-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.entry-row {
+  background: var(--surface);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius);
+  transition: border-color 0.15s ease;
+}
+
+.entry-row:hover {
+  border-color: var(--gold);
+}
+
+.entry-row > a {
+  display: block;
+  padding: 0.85rem 1.1rem;
+  color: inherit;
+}
+
+.entry-row h3 {
+  font-size: 1.05rem;
+  margin: 0 0 0.15rem;
+  color: var(--gold);
+}
+
+.entry-row p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+
+.entry-row .tags {
+  margin-top: 0.4rem;
+}
+
+.entry-row[hidden] {
+  display: none;
+}
+
+.no-results {
+  color: var(--text-muted);
+  font-style: italic;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+/* ---------- Tags ---------- */
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.tag {
+  font-size: 0.75rem;
+  padding: 0.1rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  background: var(--bg-soft);
+}
+
+/* ---------- Entry page ---------- */
+
+.entry-header .summary {
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--text-muted);
+  margin-top: 0;
+}
+
+.breadcrumb {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+  font-family: var(--font-display);
+  letter-spacing: 0.04em;
+}
+
+.stat-block {
+  background: var(--surface);
+  border: 1px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  box-shadow: var(--shadow);
+}
+
+.stat-block dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.3rem 1rem;
+  margin: 0;
+}
+
+.stat-block dt {
+  font-family: var(--font-display);
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gold);
+  align-self: baseline;
+}
+
+.stat-block dd {
+  margin: 0;
+}
+
+.entry-body {
+  margin-top: 1.5rem;
+}
+
+.entry-body table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.entry-body th,
+.entry-body td {
+  border: 1px solid var(--border-soft);
+  padding: 0.45rem 0.7rem;
+  text-align: left;
+}
+
+.entry-body th {
+  background: var(--surface);
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  color: var(--gold);
+}
+
+.entry-body blockquote {
+  border-left: 3px solid var(--gold);
+  margin: 1rem 0;
+  padding: 0.25rem 0 0.25rem 1rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.entry-source {
+  margin-top: 2rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border-soft);
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+/* ---------- Search (Pagefind UI overrides) ---------- */
+
+.search-wrap {
+  max-width: 38rem;
+  margin: 0 auto;
+}
+
+.search-wrap .dev-note {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-align: center;
+  font-style: italic;
+}
+
+:root {
+  --pagefind-ui-scale: 0.9;
+  --pagefind-ui-primary: var(--gold);
+  --pagefind-ui-text: var(--text);
+  --pagefind-ui-background: var(--surface);
+  --pagefind-ui-border: var(--border);
+  --pagefind-ui-tag: var(--surface-raised);
+  --pagefind-ui-border-width: 1px;
+  --pagefind-ui-border-radius: 8px;
+  --pagefind-ui-font: var(--font-body);
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 40rem) {
+  main {
+    padding: 1.25rem 0.9rem 3rem;
+  }
+
+  .site-header .inner {
+    justify-content: center;
+  }
+
+  .stat-block dl {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .stat-block dt {
+    margin-top: 0.5rem;
+  }
+}

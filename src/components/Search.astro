@@ -1,0 +1,43 @@
+---
+// Pagefind UI — the index only exists after `astro build && pagefind --site dist`,
+// so in `npm run dev` this degrades to a note (specs/codex-site.md, edge cases).
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<div class="search-wrap">
+  <link rel="stylesheet" href={`${base}/pagefind/pagefind-ui.css`} />
+  <div id="search"></div>
+  <noscript><p class="dev-note">A busca requer JavaScript habilitado.</p></noscript>
+</div>
+
+<script is:inline define:vars={{ base }}>
+  (function () {
+    const script = document.createElement('script');
+    script.src = `${base}/pagefind/pagefind-ui.js`;
+    script.onload = function () {
+      new PagefindUI({
+        element: '#search',
+        showSubResults: true,
+        showImages: false,
+        translations: {
+          placeholder: 'Buscar no grimório…',
+          clear_search: 'Limpar',
+          load_more: 'Carregar mais resultados',
+          search_label: 'Buscar neste site',
+          zero_results: 'Nenhum resultado para [SEARCH_TERM]',
+          many_results: '[COUNT] resultados para [SEARCH_TERM]',
+          one_result: '[COUNT] resultado para [SEARCH_TERM]',
+          searching: 'Buscando por [SEARCH_TERM]…',
+        },
+      });
+    };
+    script.onerror = function () {
+      const el = document.getElementById('search');
+      if (el) {
+        el.innerHTML =
+          '<p class="dev-note">A busca fica disponível apenas no site publicado (o índice é gerado no build).</p>';
+      }
+    };
+    document.head.appendChild(script);
+  })();
+</script>

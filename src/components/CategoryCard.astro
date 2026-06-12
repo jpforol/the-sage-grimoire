@@ -1,0 +1,18 @@
+---
+import type { CategoryDef } from '../data/categories';
+import { url } from '../utils/url';
+
+interface Props {
+  category: CategoryDef;
+  count: number;
+}
+
+const { category, count } = Astro.props;
+---
+
+<a class="category-card" href={url(`/${category.id}/`)}>
+  <span class="icon" aria-hidden="true">{category.icon}</span>
+  <h2>{category.label}</h2>
+  <p>{category.description}</p>
+  <span class="count">{count} {count === 1 ? 'entrada' : 'entradas'}</span>
+</a>

@@ -1,0 +1,113 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { url } from '../utils/url';
+
+interface Props {
+  entries: CollectionEntry<'codex'>[];
+}
+
+const { entries } = Astro.props;
+
+const allTags = [...new Set(entries.flatMap((e) => e.data.tags))].sort((a, b) =>
+  a.localeCompare(b, 'pt-BR')
+);
+
+const sorted = [...entries].sort((a, b) =>
+  a.data.title.localeCompare(b.data.title, 'pt-BR')
+);
+
+function slugOf(entry: CollectionEntry<'codex'>): string {
+  return entry.id.split('/').pop() ?? entry.id;
+}
+---
+
+<div class="filter-bar" data-filter-root>
+  <input
+    type="search"
+    placeholder="Filtrar por nome…"
+    aria-label="Filtrar entradas por nome"
+    data-name-filter
+  />
+  {
+    allTags.length > 0 && (
+      <div class="tag-filters" role="group" aria-label="Filtrar por tags">
+        {allTags.map((tag) => (
+          <button type="button" aria-pressed="false" data-tag={tag}>
+            {tag}
+          </button>
+        ))}
+      </div>
+    )
+  }
+</div>
+
+<ul class="entry-list" data-entry-list>
+  {
+    sorted.map((entry) => (
+      <li
+        class="entry-row"
+        data-title={entry.data.title.toLowerCase()}
+        data-tags={entry.data.tags.join(',')}
+      >
+        <a href={url(`/${entry.data.category}/${slugOf(entry)}/`)}>
+          <h3>{entry.data.title}</h3>
+          <p>{entry.data.summary}</p>
+          {entry.data.tags.length > 0 && (
+            <span class="tags">
+              {entry.data.tags.map((tag) => (
+                <span class="tag">{tag}</span>
+              ))}
+            </span>
+          )}
+        </a>
+      </li>
+    ))
+  }
+</ul>
+
+<p class="no-results" data-no-results hidden>Nenhuma entrada corresponde aos filtros.</p>
+
+{entries.length === 0 && <p class="no-results">Nenhuma entrada ainda — em breve!</p>}
+
+<script>
+  // Client-side filtering: name substring AND all selected tags (specs/codex-site.md).
+  function normalize(s: string): string {
+    return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  }
+
+  document.querySelectorAll<HTMLElement>('[data-filter-root]').forEach((root) => {
+    const nameInput = root.querySelector<HTMLInputElement>('[data-name-filter]');
+    const tagButtons = [...root.querySelectorAll<HTMLButtonElement>('[data-tag]')];
+    const list = document.querySelector<HTMLElement>('[data-entry-list]');
+    const noResults = document.querySelector<HTMLElement>('[data-no-results]');
+    if (!list) return;
+    const rows = [...list.querySelectorAll<HTMLElement>('.entry-row')];
+
+    function apply() {
+      const query = normalize(nameInput?.value ?? '');
+      const activeTags = tagButtons
+        .filter((b) => b.getAttribute('aria-pressed') === 'true')
+        .map((b) => b.dataset.tag ?? '');
+
+      let visible = 0;
+      for (const row of rows) {
+        const title = normalize(row.dataset.title ?? '');
+        const tags = (row.dataset.tags ?? '').split(',').filter(Boolean);
+        const matches =
+          title.includes(query) && activeTags.every((t) => tags.includes(t));
+        row.hidden = !matches;
+        if (matches) visible++;
+      }
+      if (noResults) noResults.hidden = visible > 0 || rows.length === 0;
+    }
+
+    nameInput?.addEventListener('input', apply);
+    for (const button of tagButtons) {
+      button.addEventListener('click', () => {
+        const pressed = button.getAttribute('aria-pressed') === 'true';
+        button.setAttribute('aria-pressed', String(!pressed));
+        apply();
+      });
+    }
+  });
+</script>

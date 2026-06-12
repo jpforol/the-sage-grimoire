@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import FilterTable from '../../components/FilterTable.astro';
+import { CATEGORIES } from '../../data/categories';
+
+export async function getStaticPaths() {
+  return CATEGORIES.map((cat) => ({
+    params: { category: cat.id },
+    props: { category: cat },
+  }));
+}
+
+const { category } = Astro.props;
+
+const entries = await getCollection(
+  'codex',
+  ({ data }) => data.category === category.id && !data.draft
+);
+---
+
+<BaseLayout title={category.label} description={category.description}>
+  <h1 class="page-title">
+    <span aria-hidden="true">{category.icon}</span>
+    {category.label}
+    <span class="count">({entries.length})</span>
+  </h1>
+  <p>{category.description}</p>
+  <FilterTable entries={entries} />
+</BaseLayout>

@@ -1,0 +1,29 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Search from '../components/Search.astro';
+import CategoryCard from '../components/CategoryCard.astro';
+import { CATEGORIES } from '../data/categories';
+
+const entries = await getCollection('codex', ({ data }) => !data.draft);
+const counts = new Map<string, number>();
+for (const entry of entries) {
+  counts.set(entry.data.category, (counts.get(entry.data.category) ?? 0) + 1);
+}
+---
+
+<BaseLayout title="Início">
+  <section class="hero">
+    <h1>O Grimório do Sábio</h1>
+    <p>O codex da nossa mesa — classes, magias, itens e regras, sempre à mão.</p>
+    <Search />
+  </section>
+
+  <section class="category-grid" aria-label="Categorias do codex">
+    {
+      CATEGORIES.map((cat) => (
+        <CategoryCard category={cat} count={counts.get(cat.id) ?? 0} />
+      ))
+    }
+  </section>
+</BaseLayout>
