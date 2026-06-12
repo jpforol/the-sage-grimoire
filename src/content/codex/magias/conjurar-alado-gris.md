@@ -2,10 +2,10 @@
 title: "Conjurar Alado Gris"
 category: "magias"
 summary: "Um enorme aglomerado de asas agitadas cobertas de penas cinzas aparece dentro do espaço-alvo."
-tags: ['conjuracao', 'mestre']
+tags: ['cosmica', 'especialista']
 stats:
-  tradicao: "Conjuração"
-  rank: "Mestre"
+  tradicao: "Cósmica"
+  rank: "Especialista"
   conjuracoes: 1
   alvo: "Um espaço de Tamanho 3 a até 5 metros de distância"
   duracao: "8 horas"

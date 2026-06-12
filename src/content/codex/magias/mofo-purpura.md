@@ -2,10 +2,10 @@
 title: "Mofo Púrpura"
 category: "magias"
 summary: "Magia Um estranho mofo púrpura cobre todas as superfícies expostas dentro do espaço-alvo."
-tags: ['conjuracao', 'mestre']
+tags: ['cosmica', 'especialista']
 stats:
-  tradicao: "Conjuração"
-  rank: "Mestre"
+  tradicao: "Cósmica"
+  rank: "Especialista"
   conjuracoes: 1
   alvo: "Um espaço de Tamanho 5 a até 15 metros de distância"
   duracao: "Instantânea"

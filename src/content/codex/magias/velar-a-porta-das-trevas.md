@@ -2,9 +2,9 @@
 title: "Velar a Porta das Trevas"
 category: "magias"
 summary: "O batente de pedra de uma porta aparece no espaço-alvo e permanece pela duração, após a qual ele desaparece."
-tags: ['conjuracao', 'mestre']
+tags: ['cosmica', 'mestre']
 stats:
-  tradicao: "Conjuração"
+  tradicao: "Cósmica"
   rank: "Mestre"
   conjuracoes: 1
   alvo: "Um espaço vazio de Tamanho 1 a até 5 metros de distância"

@@ -23,9 +23,12 @@ from validate_entries import slugify
 FIRST_PAGE, LAST_PAGE = 76, 164
 
 RANK_HEADER_RE = re.compile(
-    r"^(Novato|Especialista|Mestre)\s+(?:de|da|das|do|dos)\s+(.+?)\s*$"
+    r"^(Novato|Especialista|Mestre)\s+(?:(?:de|da|das|do|dos)\s+)?"
+    r"([A-ZÁÉÍÓÚÂÊÔÃÕÇ][\w Áá-úÀ-ÿ]{2,30})\s*$"
 )
 RANK_OF = {"Novato": "novato", "Especialista": "especialista", "Mestre": "mestre"}
+# Cósmica is headed by the adjective form ('Novato Cósmicos') — normalize it.
+NAME_FIX = {"Cósmicos": "Cósmica"}
 # Chapter-index table furniture that the 2-column extraction interleaves into
 # the first tradition's intro (specs/spell-parser.md, edge cases).
 TABLE_FURNITURE = {"Tradições de Magia", "Tradição", "Descrição"}
@@ -98,7 +101,7 @@ def find_sections(
     for i, (_, line) in enumerate(lines):
         m = RANK_HEADER_RE.match(line.strip())
         if m:
-            headers.append((i, RANK_OF[m.group(1)], m.group(2)))
+            headers.append((i, RANK_OF[m.group(1)], NAME_FIX.get(m.group(2), m.group(2))))
 
     order: list[str] = []
     for _, rank, name in headers:

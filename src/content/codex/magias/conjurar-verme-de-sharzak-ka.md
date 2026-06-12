@@ -2,10 +2,10 @@
 title: "Conjurar Verme de Sharzak-ka"
 category: "magias"
 summary: "Da cidade lendária de Sharzak-Ka, visível somente na escuridão da lua nova, vem um verme gigante que aparece no espaço-alvo."
-tags: ['conjuracao', 'mestre']
+tags: ['cosmica', 'novato']
 stats:
-  tradicao: "Conjuração"
-  rank: "Mestre"
+  tradicao: "Cósmica"
+  rank: "Novato"
   conjuracoes: 1
   alvo: "Um espaço vazio de Tamanho 1 no chão a 5 metros de distância"
   duracao: "1 hora"

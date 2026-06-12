@@ -2,10 +2,10 @@
 title: "Névoa Rastejante"
 category: "magias"
 summary: "Névoa cinzenta com traços esverdeados se ergue do chão ao seu redor e permanece no local."
-tags: ['conjuracao', 'mestre']
+tags: ['cosmica', 'novato']
 stats:
-  tradicao: "Conjuração"
-  rank: "Mestre"
+  tradicao: "Cósmica"
+  rank: "Novato"
   conjuracoes: 1
   alvo: "Um espaço de Tamanho 5 centralizado em você"
   duracao: "1 minuto"

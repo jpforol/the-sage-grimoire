@@ -2,10 +2,10 @@
 title: "Fera Selvagem da Floresta Negra"
 category: "magias"
 summary: "O corpo do alvo se altera e contorce."
-tags: ['conjuracao', 'mestre']
+tags: ['cosmica', 'novato']
 stats:
-  tradicao: "Conjuração"
-  rank: "Mestre"
+  tradicao: "Cósmica"
+  rank: "Novato"
   conjuracoes: 1
   alvo: "Uma criatura a até 15 metros de distância"
   duracao: "Especial (veja o efeito)"

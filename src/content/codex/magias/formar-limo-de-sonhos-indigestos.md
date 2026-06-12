@@ -2,9 +2,9 @@
 title: "Formar Limo de Sonhos Indigestos"
 category: "magias"
 summary: "Uma fita untuosa surge dentro do espaço-alvo, desenrolando-se até se tornar uma massa oleosa na qual pode-se perceber faces assombradas gritando e gargalhando."
-tags: ['conjuracao', 'mestre']
+tags: ['cosmica', 'mestre']
 stats:
-  tradicao: "Conjuração"
+  tradicao: "Cósmica"
   rank: "Mestre"
   conjuracoes: 1
   alvo: "Um espaço vazio de Tamanho 2 a até 5 metros de distância"

@@ -2,10 +2,10 @@
 title: "Ranger de Dentes"
 category: "magias"
 summary: "O chão no espaço-alvo ondula e forma inúmeras bocas salivantes cheias de dentes longos e afiados."
-tags: ['conjuracao', 'mestre']
+tags: ['cosmica', 'especialista']
 stats:
-  tradicao: "Conjuração"
-  rank: "Mestre"
+  tradicao: "Cósmica"
+  rank: "Especialista"
   conjuracoes: 1
   alvo: "Um espaço de Tamanho 5 no chão centralizado em você"
   duracao: "1 minuto"

@@ -2,9 +2,9 @@
 title: "Ginete Pálido"
 category: "magias"
 summary: "Um ginete pálido — um estranho ser hominídeo — escala as costas do alvo e não pode ser removido de maneira nenhuma."
-tags: ['conjuracao', 'mestre']
+tags: ['cosmica', 'mestre']
 stats:
-  tradicao: "Conjuração"
+  tradicao: "Cósmica"
   rank: "Mestre"
   conjuracoes: 1
   alvo: "Uma criatura a até 15 metros de distância"

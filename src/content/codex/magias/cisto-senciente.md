@@ -2,10 +2,10 @@
 title: "Cisto Senciente"
 category: "magias"
 summary: "Um grande cisto aparece em algum lugar no corpo do alvo."
-tags: ['conjuracao', 'mestre']
+tags: ['cosmica', 'especialista']
 stats:
-  tradicao: "Conjuração"
-  rank: "Mestre"
+  tradicao: "Cósmica"
+  rank: "Especialista"
   conjuracoes: 1
   alvo: "Uma criatura a até 15 metros de distância"
   duracao: "1 minuto"

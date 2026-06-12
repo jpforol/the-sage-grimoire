@@ -2,9 +2,9 @@
 title: "Zumbido da Hoste Insaciável"
 category: "magias"
 summary: "Tamanho 5 centralizado em você você encerrá-lo ou morrer Um terrível zumbido preenche o ar no espaço."
-tags: ['conjuracao', 'mestre']
+tags: ['cosmica', 'mestre']
 stats:
-  tradicao: "Conjuração"
+  tradicao: "Cósmica"
   rank: "Mestre"
   conjuracoes: 1
   alvo: "Um espaço de"

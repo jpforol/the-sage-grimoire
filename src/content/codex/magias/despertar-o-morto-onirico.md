@@ -2,9 +2,9 @@
 title: "Despertar o Morto Onírico"
 category: "magias"
 summary: "O chão no espaço-alvo racha conforme um morto onírico se liberta escavando até a superfície, revelando-se em toda a sua glória digna de pesadelos."
-tags: ['conjuracao', 'mestre']
+tags: ['cosmica', 'mestre']
 stats:
-  tradicao: "Conjuração"
+  tradicao: "Cósmica"
   rank: "Mestre"
   conjuracoes: 1
   alvo: "Um espaço de Tamanho 5 a até 5 metros de distância"

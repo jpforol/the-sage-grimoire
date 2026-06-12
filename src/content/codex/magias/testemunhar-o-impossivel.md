@@ -2,9 +2,9 @@
 title: "Testemunhar o Impossível"
 category: "magias"
 summary: "Você revela uma paisagem alienígena repleta de horrores além da imaginação."
-tags: ['conjuracao', 'mestre']
+tags: ['cosmica', 'mestre']
 stats:
-  tradicao: "Conjuração"
+  tradicao: "Cósmica"
   rank: "Mestre"
   conjuracoes: 1
   alvo: "Todas as criaturas, exceto você, a até 15 metros de distância"

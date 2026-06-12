@@ -2,10 +2,10 @@
 title: "Cor Hostil"
 category: "magias"
 summary: "Uma mancha ondulante de cor aparece no espaço-alvo e permanece flutuando nele."
-tags: ['conjuracao', 'mestre']
+tags: ['cosmica', 'especialista']
 stats:
-  tradicao: "Conjuração"
-  rank: "Mestre"
+  tradicao: "Cósmica"
+  rank: "Especialista"
   conjuracoes: 1
   alvo: "Um espaço de Tamanho 1 a até 15 metros de distância"
   duracao: "1 minuto"

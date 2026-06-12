@@ -2,10 +2,10 @@
 title: "Sequestrar Cadáver"
 category: "magias"
 summary: "distância Você desprende a sua alma para encontrar suporte no corpo-alvo."
-tags: ['conjuracao', 'mestre']
+tags: ['cosmica', 'novato']
 stats:
-  tradicao: "Conjuração"
-  rank: "Mestre"
+  tradicao: "Cósmica"
+  rank: "Novato"
   conjuracoes: 1
   alvo: "Uma criatura morta de Tamanho 2 ou menor a 5 metros de"
   duracao: "Especial (veja o efeito)"

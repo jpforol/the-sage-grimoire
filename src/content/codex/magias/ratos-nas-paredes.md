@@ -2,10 +2,10 @@
 title: "Ratos nas Paredes"
 category: "magias"
 summary: "Ratos com rostos humanos saem escavando do solo para cobrir todas as superfícies no espaço-alvo."
-tags: ['conjuracao', 'mestre']
+tags: ['cosmica', 'novato']
 stats:
-  tradicao: "Conjuração"
-  rank: "Mestre"
+  tradicao: "Cósmica"
+  rank: "Novato"
   conjuracoes: 1
   alvo: "Um espaço de Tamanho 5 no chão a até 15 metros de distância"
   duracao: "1 minuto"
