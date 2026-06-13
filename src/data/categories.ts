@@ -50,13 +50,6 @@ export const CATEGORIES: CategoryDef[] = [
     description: 'Armas, armaduras, ferramentas e os equipamentos básicos do jogo.',
   },
   {
-    id: 'magias',
-    label: 'Magias',
-    icon: '✨',
-    description: 'Todos os feitiços do sistema, organizados por tradição.',
-    groupByStat: 'tradicao',
-  },
-  {
     id: 'tradicoes',
     label: 'Tradições',
     icon: '✦',

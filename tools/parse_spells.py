@@ -284,46 +284,45 @@ def to_paragraphs(lines: list[str]) -> str:
 
 
 def structure_talents(body: str) -> str:
-    """Convert 'Talento Name (Type):' or 'Talento Name:' patterns into ### subsections.
+    """Convert 'Talento Name (Type):' patterns into a ## Talentos bullet list.
 
-    Splits on "Talentos de <name>." and reformats each talent into a subsection.
+    Replaces the inline '**Talentos de X.**' block with a proper heading and
+    formats each talent as a bullet list item.
     """
     import re
 
-    # Find where "Talentos de" section starts — ensure it ends with **. or just .
+    # Find where "Talentos de" section starts
     talents_match = re.search(r'\*\*Talentos de.*?\.\*\*|\*\*Talentos de.*?\.', body)
     if not talents_match:
         return body
 
-    intro_end = talents_match.end()
-    intro = body[:intro_end]
-    # Ensure intro ends with proper formatting
-    if not intro.endswith('**'):
-        intro = intro.rstrip('.') + '.**'
-    talents_section = body[intro_end:].strip()
+    intro = body[:talents_match.start()].rstrip()
+    talents_section = body[talents_match.end():].strip()
 
     # Remove leading asterisks/whitespace from talents section
     talents_section = re.sub(r'^\s*\*+\s*', '', talents_section)
 
-    # Pattern 1: "Nome (Tipo): descrição" - talent with type in parentheses
-    # Pattern 2: "Nome: descrição" - talent without type in parentheses
-    # Use alternation: (Nome \(Tipo\): desc) | (Nome: desc)
+    # Pattern: "Nome (Tipo): descrição" or "Nome: descrição"
     pattern = r'([A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-Za-zçãõáéí ]*?)\s*(?:\(([^)]+)\))?\s*:\s*(.+?)(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-Za-zçãõáéí ]*\s*(?:\([^)]+\))?\s*:|\Z)'
 
-    def replace_talent(m):
+    bullets: list[str] = []
+
+    def collect_talent(m):
         name = m.group(1).strip()
-        talent_type = m.group(2)  # Can be None if no parentheses
+        talent_type = m.group(2)
         desc = m.group(3).strip()
-
         if talent_type:
-            talent_type = talent_type.strip()
-            return f"\n### {name}\n\n**{talent_type}:** {desc}"
+            bullets.append(f"- **{name}** ({talent_type.strip()}): {desc}")
         else:
-            # No type given, just show the description
-            return f"\n### {name}\n\n{desc}"
+            bullets.append(f"- **{name}**: {desc}")
+        return ""
 
-    talents_section = re.sub(pattern, replace_talent, talents_section, flags=re.DOTALL)
-    return intro + talents_section
+    re.sub(pattern, collect_talent, talents_section, flags=re.DOTALL)
+
+    if not bullets:
+        return body
+
+    return intro + "\n\n## Talentos\n\n" + "\n".join(bullets)
 
 
 def render_spell(spell: Spell) -> str:

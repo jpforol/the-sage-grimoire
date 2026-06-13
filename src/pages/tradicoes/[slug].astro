@@ -25,12 +25,22 @@ const magias = await getCollection('codex', ({ data }) =>
 // Sort spells by title
 magias.sort((a, b) => a.data.title.localeCompare(b.data.title, 'pt-BR'));
 
-// Group by rank (Novato, Especialista, Mestre)
+// Render all spell markdown bodies
+const renderedSpells = await Promise.all(
+  magias.map(async (spell) => ({
+    spell,
+    Content: (await render(spell)).Content,
+  }))
+);
+
+// Group by rank
 const RANK_ORDER = ['Novato', 'Especialista', 'Mestre'];
-const groups = new Map<string, typeof magias>();
-for (const rank of RANK_ORDER) {
-  groups.set(rank, magias.filter(m => m.data.stats?.rank === rank));
-}
+const groups = new Map(
+  RANK_ORDER.map((rank) => [
+    rank,
+    renderedSpells.filter(({ spell }) => spell.data.stats?.rank === rank),
+  ])
+);
 ---
 
 <BaseLayout title={entry.data.title} description={entry.data.summary}>
@@ -55,27 +65,25 @@ for (const rank of RANK_ORDER) {
       }
     </header>
 
-    <StatBlock stats={entry.data.stats} />
-
     <div class="entry-body">
       <Content />
     </div>
 
-    {/* Spells grouped by rank */}
+    {/* Spells grouped by rank — full content inline */}
     {
       Array.from(groups.entries()).map(([rank, rankSpells]) =>
         rankSpells.length > 0 ? (
-          <section class="spell-group" key={rank}>
-            <h2>{rank}</h2>
-            <ul class="spell-list">
-              {rankSpells.map((spell) => (
-                <li>
-                  <a href={url(`/magias/${spell.id.split('/').pop()}/`)}>
-                    {spell.data.title}
-                  </a>
-                </li>
-              ))}
-            </ul>
+          <section class="spell-rank-group">
+            <h2>Magias de {rank}</h2>
+            {rankSpells.map(({ spell, Content: SpellContent }) => (
+              <article class="spell-entry">
+                <h3 class="spell-name">{spell.data.title}</h3>
+                <StatBlock stats={spell.data.stats} />
+                <div class="spell-body">
+                  <SpellContent />
+                </div>
+              </article>
+            ))}
           </section>
         ) : null
       )
@@ -92,42 +100,37 @@ for (const rank of RANK_ORDER) {
 </BaseLayout>
 
 <style>
-  .spell-group {
-    margin: 2rem 0 0;
+  .spell-rank-group {
+    margin: 2.5rem 0 0;
     padding-top: 1.5rem;
-    border-top: 1px solid var(--border-soft);
+    border-top: 2px solid var(--gold);
   }
 
-  .spell-group h2 {
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
+  .spell-rank-group h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--gold-bright);
   }
 
-  .spell-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+  .spell-entry {
+    margin: 0 0 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border-soft);
   }
 
-  .spell-list li {
-    margin: 0;
+  .spell-entry:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 
-  .spell-list a {
-    display: block;
-    padding: 0.5rem 0.75rem;
-    background: var(--surface);
-    border: 1px solid var(--border-soft);
-    border-radius: var(--radius);
+  .spell-name {
+    font-size: 1.2rem;
+    margin: 0 0 0.5rem;
     color: var(--gold);
-    text-decoration: none;
-    transition: border-color 0.15s ease;
   }
 
-  .spell-list a:hover {
-    border-color: var(--gold);
+  .spell-body {
+    margin-top: 0.75rem;
   }
 </style>
