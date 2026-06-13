@@ -292,7 +292,7 @@ def structure_talents(body: str) -> str:
     import re
 
     # Find where "Talentos de" section starts
-    talents_match = re.search(r'\*\*Talentos de.*?\.\*\*|\*\*Talentos de.*?\.', body)
+    talents_match = re.search(r'\*\*Talentos .*?\.\*\*|\*\*Talentos .*?\.', body)
     if not talents_match:
         return body
 
